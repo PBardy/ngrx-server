@@ -1,0 +1,682 @@
+2022-07-13 19:27:12 info: =================================
+2022-07-13 19:27:12 info: ======= ENV: development =======
+2022-07-13 19:27:12 info: 🚀 App listening on the port 3000
+2022-07-13 19:27:12 info: =================================
+2022-07-13 19:27:20 debug: [object Object]
+2022-07-13 19:27:20 debug: c9f1173b-9b21-4235-a60a-86b45f44d153
+2022-07-13 19:27:20 debug: c47b8b7b-d807-474f-bf3c-fc96111a764e
+2022-07-13 19:27:20 error: [POST] /api/user/shopping-lists/c9f1173b-9b21-4235-a60a-86b45f44d153/items/add/c47b8b7b-d807-474f-bf3c-fc96111a764e >> StatusCode:: 500, Message:: select `shopping_lists`.`id` as `id`, `shopping_lists`.`uuid` as `uuid`, `shopping_lists`.`name` as `name`, `shopping_lists`.`slug` as `slug`, `shopping_lists`.`user_id` as `user_id`, `shopping_lists`.`created_at` as `created_at`, `shopping_lists`.`updated_at` as `updated_at`, `owner`.`id` as `owner:id`, `owner`.`uuid` as `owner:uuid`, `owner`.`email` as `owner:email`, `owner`.`password` as `owner:password`, `owner`.`first_name` as `owner:first_name`, `owner`.`last_name` as `owner:last_name`, `owner`.`user_type_id` as `owner:user_type_id`, `owner`.`created_at` as `owner:created_at`, `owner`.`updated_at` as `owner:updated_at`, `items`.`id` as `items:id`, `items`.`uuid` as `items:uuid`, `items`.`product_id` as `items:product_id`, `items`.`shopping_list_id` as `items:shopping_list_id`, `items`.`created_at` as `items:created_at`, `items`.`updated_at` as `items:updated_at` from `shopping_lists` left join `users` as `owner` on `owner`.`id` = `shopping_lists`.`user_id` left join `shopping_list_items` as `items` on `items`.`shopping_list_id` = `shopping_lists`.`id` where `shopping_list`.`uuid` = 'c9f1173b-9b21-4235-a60a-86b45f44d153' - ER_BAD_FIELD_ERROR: Unknown column 'shopping_list.uuid' in 'where clause'
+2022-07-13 19:27:20 info: [0mPOST /api/user/shopping-lists/c9f1173b-9b21-4235-a60a-86b45f44d153/items/add/c47b8b7b-d807-474f-bf3c-fc96111a764e [31m500[0m 408.052 ms - -[0m
+2022-07-13 19:27:45 info: =================================
+2022-07-13 19:27:45 info: ======= ENV: development =======
+2022-07-13 19:27:45 info: 🚀 App listening on the port 3000
+2022-07-13 19:27:45 info: =================================
+2022-07-13 19:27:55 info: =================================
+2022-07-13 19:27:55 info: ======= ENV: development =======
+2022-07-13 19:27:55 info: 🚀 App listening on the port 3000
+2022-07-13 19:27:55 info: =================================
+2022-07-13 19:27:57 debug: [object Object]
+2022-07-13 19:27:57 info: [0mPOST /api/user/shopping-lists/c9f1173b-9b21-4235-a60a-86b45f44d153/items/add/c47b8b7b-d807-474f-bf3c-fc96111a764e [32m200[0m 365.885 ms - 212[0m
+2022-07-13 19:38:13 info: [0mGET /api/users/types [36m304[0m 11.286 ms - -[0m
+2022-07-13 19:38:13 debug: [object Object]
+2022-07-13 19:38:13 info: [0mGET /api/auth/refresh-session [32m200[0m 30.815 ms - 552[0m
+2022-07-13 19:38:13 debug: [object Object]
+2022-07-13 19:38:13 debug: [object Object]
+2022-07-13 19:38:13 debug: [object Object]
+2022-07-13 19:38:13 debug: [object Object]
+2022-07-13 19:38:13 info: [0mGET /api/tags [36m304[0m 48.372 ms - -[0m
+2022-07-13 19:38:13 info: [0mGET /api/products [36m304[0m 52.222 ms - -[0m
+2022-07-13 19:38:13 info: [0mGET /api/categories [36m304[0m 54.152 ms - -[0m
+2022-07-13 19:38:13 info: [0mGET /api/user/shopping-lists [32m200[0m 57.389 ms - 323[0m
+2022-07-13 19:38:13 debug: [object Object]
+2022-07-13 19:38:13 info: [0mGET /api/shipping-methods [36m304[0m 11.496 ms - -[0m
+2022-07-13 19:38:25 info: [0mGET /api/users/types [36m304[0m 2.144 ms - -[0m
+2022-07-13 19:38:25 debug: [object Object]
+2022-07-13 19:38:25 info: [0mGET /api/auth/refresh-session [32m200[0m 4.969 ms - 552[0m
+2022-07-13 19:38:25 debug: [object Object]
+2022-07-13 19:38:25 info: [0mGET /api/tags [36m304[0m 16.692 ms - -[0m
+2022-07-13 19:38:25 debug: [object Object]
+2022-07-13 19:38:25 debug: [object Object]
+2022-07-13 19:38:25 debug: [object Object]
+2022-07-13 19:38:25 info: [0mGET /api/products [36m304[0m 8.158 ms - -[0m
+2022-07-13 19:38:25 info: [0mGET /api/categories [36m304[0m 10.402 ms - -[0m
+2022-07-13 19:38:25 info: [0mGET /api/user/shopping-lists [36m304[0m 11.309 ms - -[0m
+2022-07-13 19:38:25 debug: [object Object]
+2022-07-13 19:38:25 info: [0mGET /api/shipping-methods [36m304[0m 3.479 ms - -[0m
+2022-07-13 19:41:09 info: [0mGET /api/users/types [36m304[0m 2.498 ms - -[0m
+2022-07-13 19:41:09 debug: [object Object]
+2022-07-13 19:41:09 info: [0mGET /api/auth/refresh-session [32m200[0m 5.737 ms - 552[0m
+2022-07-13 19:41:09 debug: [object Object]
+2022-07-13 19:41:09 info: [0mGET /api/tags [36m304[0m 18.664 ms - -[0m
+2022-07-13 19:41:09 debug: [object Object]
+2022-07-13 19:41:09 debug: [object Object]
+2022-07-13 19:41:09 debug: [object Object]
+2022-07-13 19:41:09 info: [0mGET /api/products [36m304[0m 13.539 ms - -[0m
+2022-07-13 19:41:09 info: [0mGET /api/categories [36m304[0m 15.891 ms - -[0m
+2022-07-13 19:41:09 info: [0mGET /api/user/shopping-lists [36m304[0m 17.737 ms - -[0m
+2022-07-13 19:41:09 debug: [object Object]
+2022-07-13 19:41:09 info: [0mGET /api/shipping-methods [36m304[0m 2.817 ms - -[0m
+2022-07-13 19:41:26 info: [0mGET /api/users/types [36m304[0m 1.881 ms - -[0m
+2022-07-13 19:41:26 debug: [object Object]
+2022-07-13 19:41:26 info: [0mGET /api/auth/refresh-session [32m200[0m 4.223 ms - 552[0m
+2022-07-13 19:41:26 debug: [object Object]
+2022-07-13 19:41:26 info: [0mGET /api/tags [36m304[0m 17.368 ms - -[0m
+2022-07-13 19:41:26 debug: [object Object]
+2022-07-13 19:41:26 debug: [object Object]
+2022-07-13 19:41:26 debug: [object Object]
+2022-07-13 19:41:26 info: [0mGET /api/products [36m304[0m 12.678 ms - -[0m
+2022-07-13 19:41:26 info: [0mGET /api/categories [36m304[0m 14.087 ms - -[0m
+2022-07-13 19:41:26 info: [0mGET /api/user/shopping-lists [36m304[0m 15.970 ms - -[0m
+2022-07-13 19:41:27 debug: [object Object]
+2022-07-13 19:41:27 info: [0mGET /api/shipping-methods [36m304[0m 2.955 ms - -[0m
+2022-07-13 19:41:32 info: [0mGET /api/users/types [36m304[0m 1.230 ms - -[0m
+2022-07-13 19:41:32 debug: [object Object]
+2022-07-13 19:41:32 info: [0mGET /api/auth/refresh-session [32m200[0m 6.101 ms - 552[0m
+2022-07-13 19:41:32 debug: [object Object]
+2022-07-13 19:41:32 debug: [object Object]
+2022-07-13 19:41:32 debug: [object Object]
+2022-07-13 19:41:32 debug: [object Object]
+2022-07-13 19:41:32 info: [0mGET /api/products [36m304[0m 10.185 ms - -[0m
+2022-07-13 19:41:32 info: [0mGET /api/tags [36m304[0m 19.883 ms - -[0m
+2022-07-13 19:41:32 info: [0mGET /api/categories [36m304[0m 21.526 ms - -[0m
+2022-07-13 19:41:32 info: [0mGET /api/user/shopping-lists [36m304[0m 23.243 ms - -[0m
+2022-07-13 19:41:32 debug: [object Object]
+2022-07-13 19:41:32 info: [0mGET /api/shipping-methods [36m304[0m 2.017 ms - -[0m
+2022-07-13 19:41:50 info: [0mGET /api/users/types [36m304[0m 2.209 ms - -[0m
+2022-07-13 19:41:50 debug: [object Object]
+2022-07-13 19:41:50 info: [0mGET /api/auth/refresh-session [32m200[0m 5.136 ms - 552[0m
+2022-07-13 19:41:50 debug: [object Object]
+2022-07-13 19:41:50 info: [0mGET /api/tags [36m304[0m 16.144 ms - -[0m
+2022-07-13 19:41:50 debug: [object Object]
+2022-07-13 19:41:50 debug: [object Object]
+2022-07-13 19:41:50 debug: [object Object]
+2022-07-13 19:41:50 info: [0mGET /api/products [36m304[0m 11.521 ms - -[0m
+2022-07-13 19:41:50 info: [0mGET /api/categories [36m304[0m 12.346 ms - -[0m
+2022-07-13 19:41:50 info: [0mGET /api/user/shopping-lists [36m304[0m 12.851 ms - -[0m
+2022-07-13 19:41:50 debug: [object Object]
+2022-07-13 19:41:50 info: [0mGET /api/shipping-methods [36m304[0m 3.450 ms - -[0m
+2022-07-13 19:43:30 info: [0mGET /api/users/types [36m304[0m 2.112 ms - -[0m
+2022-07-13 19:43:30 debug: [object Object]
+2022-07-13 19:43:30 info: [0mGET /api/auth/refresh-session [32m200[0m 4.652 ms - 552[0m
+2022-07-13 19:43:30 debug: [object Object]
+2022-07-13 19:43:30 info: [0mGET /api/tags [36m304[0m 8.955 ms - -[0m
+2022-07-13 19:43:30 debug: [object Object]
+2022-07-13 19:43:30 debug: [object Object]
+2022-07-13 19:43:30 debug: [object Object]
+2022-07-13 19:43:30 info: [0mGET /api/products [36m304[0m 8.115 ms - -[0m
+2022-07-13 19:43:30 info: [0mGET /api/user/shopping-lists [36m304[0m 7.393 ms - -[0m
+2022-07-13 19:43:30 info: [0mGET /api/categories [36m304[0m 10.454 ms - -[0m
+2022-07-13 19:43:30 debug: [object Object]
+2022-07-13 19:43:30 info: [0mGET /api/shipping-methods [36m304[0m 3.658 ms - -[0m
+2022-07-13 19:44:52 info: [0mGET /api/users/types [36m304[0m 3.294 ms - -[0m
+2022-07-13 19:44:52 debug: [object Object]
+2022-07-13 19:44:52 info: [0mGET /api/auth/refresh-session [32m200[0m 7.142 ms - 552[0m
+2022-07-13 19:44:52 debug: [object Object]
+2022-07-13 19:44:52 info: [0mGET /api/tags [36m304[0m 12.392 ms - -[0m
+2022-07-13 19:44:52 debug: [object Object]
+2022-07-13 19:44:52 debug: [object Object]
+2022-07-13 19:44:52 debug: [object Object]
+2022-07-13 19:44:52 info: [0mGET /api/products [36m304[0m 7.810 ms - -[0m
+2022-07-13 19:44:52 info: [0mGET /api/categories [36m304[0m 11.441 ms - -[0m
+2022-07-13 19:44:52 info: [0mGET /api/user/shopping-lists [36m304[0m 11.607 ms - -[0m
+2022-07-13 19:44:53 debug: [object Object]
+2022-07-13 19:44:53 info: [0mGET /api/shipping-methods [36m304[0m 3.075 ms - -[0m
+2022-07-13 19:56:05 info: [0mGET /api/users/types [36m304[0m 2.414 ms - -[0m
+2022-07-13 19:56:05 debug: [object Object]
+2022-07-13 19:56:05 info: [0mGET /api/auth/refresh-session [32m200[0m 6.010 ms - 552[0m
+2022-07-13 19:56:05 debug: [object Object]
+2022-07-13 19:56:05 info: [0mGET /api/tags [36m304[0m 12.279 ms - -[0m
+2022-07-13 19:56:05 debug: [object Object]
+2022-07-13 19:56:05 debug: [object Object]
+2022-07-13 19:56:05 debug: [object Object]
+2022-07-13 19:56:05 info: [0mGET /api/products [36m304[0m 9.625 ms - -[0m
+2022-07-13 19:56:05 info: [0mGET /api/categories [36m304[0m 10.241 ms - -[0m
+2022-07-13 19:56:05 info: [0mGET /api/user/shopping-lists [36m304[0m 11.333 ms - -[0m
+2022-07-13 19:56:05 debug: [object Object]
+2022-07-13 19:56:05 info: [0mGET /api/shipping-methods [36m304[0m 6.595 ms - -[0m
+2022-07-13 19:56:14 info: [0mGET /api/users/types [36m304[0m 1.861 ms - -[0m
+2022-07-13 19:56:14 debug: [object Object]
+2022-07-13 19:56:14 info: [0mGET /api/auth/refresh-session [32m200[0m 5.552 ms - 552[0m
+2022-07-13 19:56:14 debug: [object Object]
+2022-07-13 19:56:14 info: [0mGET /api/tags [36m304[0m 8.938 ms - -[0m
+2022-07-13 19:56:14 debug: [object Object]
+2022-07-13 19:56:14 debug: [object Object]
+2022-07-13 19:56:14 debug: [object Object]
+2022-07-13 19:56:14 info: [0mGET /api/products [36m304[0m 11.096 ms - -[0m
+2022-07-13 19:56:14 info: [0mGET /api/categories [36m304[0m 11.504 ms - -[0m
+2022-07-13 19:56:14 info: [0mGET /api/user/shopping-lists [36m304[0m 12.827 ms - -[0m
+2022-07-13 19:56:14 debug: [object Object]
+2022-07-13 19:56:14 info: [0mGET /api/shipping-methods [36m304[0m 3.648 ms - -[0m
+2022-07-13 19:57:37 info: [0mGET /api/users/types [36m304[0m 5.683 ms - -[0m
+2022-07-13 19:57:37 debug: [object Object]
+2022-07-13 19:57:37 info: [0mGET /api/auth/refresh-session [32m200[0m 7.744 ms - 552[0m
+2022-07-13 19:57:37 debug: [object Object]
+2022-07-13 19:57:37 info: [0mGET /api/tags [36m304[0m 9.477 ms - -[0m
+2022-07-13 19:57:37 debug: [object Object]
+2022-07-13 19:57:37 info: [0mGET /api/products [36m304[0m 4.701 ms - -[0m
+2022-07-13 19:57:38 debug: [object Object]
+2022-07-13 19:57:38 debug: [object Object]
+2022-07-13 19:57:38 debug: [object Object]
+2022-07-13 19:57:38 info: [0mGET /api/shipping-methods [36m304[0m 10.432 ms - -[0m
+2022-07-13 19:57:38 info: [0mGET /api/categories [36m304[0m 13.155 ms - -[0m
+2022-07-13 19:57:38 info: [0mGET /api/user/shopping-lists [36m304[0m 15.237 ms - -[0m
+2022-07-13 19:57:59 info: [0mGET /api/users/types [36m304[0m 3.360 ms - -[0m
+2022-07-13 19:57:59 debug: [object Object]
+2022-07-13 19:57:59 info: [0mGET /api/auth/refresh-session [32m200[0m 9.392 ms - 552[0m
+2022-07-13 19:57:59 debug: [object Object]
+2022-07-13 19:57:59 info: [0mGET /api/tags [36m304[0m 18.400 ms - -[0m
+2022-07-13 19:57:59 debug: [object Object]
+2022-07-13 19:57:59 debug: [object Object]
+2022-07-13 19:57:59 debug: [object Object]
+2022-07-13 19:57:59 info: [0mGET /api/products [36m304[0m 18.985 ms - -[0m
+2022-07-13 19:57:59 info: [0mGET /api/categories [36m304[0m 19.119 ms - -[0m
+2022-07-13 19:57:59 info: [0mGET /api/user/shopping-lists [36m304[0m 18.176 ms - -[0m
+2022-07-13 19:58:00 debug: [object Object]
+2022-07-13 19:58:00 info: [0mGET /api/shipping-methods [36m304[0m 7.193 ms - -[0m
+2022-07-13 20:00:27 info: [0mGET /api/users/types [36m304[0m 3.814 ms - -[0m
+2022-07-13 20:00:27 debug: [object Object]
+2022-07-13 20:00:27 info: [0mGET /api/auth/refresh-session [32m200[0m 10.521 ms - 552[0m
+2022-07-13 20:00:27 debug: [object Object]
+2022-07-13 20:00:27 info: [0mGET /api/tags [36m304[0m 11.831 ms - -[0m
+2022-07-13 20:00:27 debug: [object Object]
+2022-07-13 20:00:27 debug: [object Object]
+2022-07-13 20:00:27 debug: [object Object]
+2022-07-13 20:00:27 info: [0mGET /api/products [36m304[0m 23.206 ms - -[0m
+2022-07-13 20:00:27 info: [0mGET /api/categories [36m304[0m 28.140 ms - -[0m
+2022-07-13 20:00:27 info: [0mGET /api/user/shopping-lists [36m304[0m 28.871 ms - -[0m
+2022-07-13 20:00:27 debug: [object Object]
+2022-07-13 20:00:27 info: [0mGET /api/shipping-methods [36m304[0m 4.367 ms - -[0m
+2022-07-13 20:00:59 info: [0mGET /api/users/types [36m304[0m 7.114 ms - -[0m
+2022-07-13 20:00:59 debug: [object Object]
+2022-07-13 20:00:59 info: [0mGET /api/auth/refresh-session [32m200[0m 7.224 ms - 552[0m
+2022-07-13 20:00:59 debug: [object Object]
+2022-07-13 20:00:59 info: [0mGET /api/tags [36m304[0m 10.599 ms - -[0m
+2022-07-13 20:00:59 debug: [object Object]
+2022-07-13 20:00:59 debug: [object Object]
+2022-07-13 20:00:59 info: [0mGET /api/products [36m304[0m 11.351 ms - -[0m
+2022-07-13 20:00:59 debug: [object Object]
+2022-07-13 20:00:59 info: [0mGET /api/categories [36m304[0m 17.102 ms - -[0m
+2022-07-13 20:00:59 info: [0mGET /api/user/shopping-lists [36m304[0m 18.517 ms - -[0m
+2022-07-13 20:00:59 debug: [object Object]
+2022-07-13 20:00:59 info: [0mGET /api/shipping-methods [36m304[0m 3.359 ms - -[0m
+2022-07-13 20:01:55 info: [0mGET /api/users/types [36m304[0m 2.329 ms - -[0m
+2022-07-13 20:01:55 debug: [object Object]
+2022-07-13 20:01:55 info: [0mGET /api/auth/refresh-session [32m200[0m 7.569 ms - 552[0m
+2022-07-13 20:01:55 debug: [object Object]
+2022-07-13 20:01:55 info: [0mGET /api/tags [36m304[0m 9.784 ms - -[0m
+2022-07-13 20:01:55 debug: [object Object]
+2022-07-13 20:01:55 debug: [object Object]
+2022-07-13 20:01:55 debug: [object Object]
+2022-07-13 20:01:55 info: [0mGET /api/products [36m304[0m 9.684 ms - -[0m
+2022-07-13 20:01:55 info: [0mGET /api/categories [36m304[0m 11.070 ms - -[0m
+2022-07-13 20:01:55 info: [0mGET /api/user/shopping-lists [36m304[0m 11.418 ms - -[0m
+2022-07-13 20:01:55 debug: [object Object]
+2022-07-13 20:01:55 info: [0mGET /api/shipping-methods [36m304[0m 7.061 ms - -[0m
+2022-07-13 20:06:01 info: [0mGET /api/users/types [36m304[0m 4.126 ms - -[0m
+2022-07-13 20:06:01 debug: [object Object]
+2022-07-13 20:06:01 info: [0mGET /api/auth/refresh-session [32m200[0m 8.287 ms - 552[0m
+2022-07-13 20:06:01 debug: [object Object]
+2022-07-13 20:06:01 info: [0mGET /api/tags [36m304[0m 23.778 ms - -[0m
+2022-07-13 20:06:01 debug: [object Object]
+2022-07-13 20:06:01 debug: [object Object]
+2022-07-13 20:06:01 debug: [object Object]
+2022-07-13 20:06:01 info: [0mGET /api/products [36m304[0m 15.618 ms - -[0m
+2022-07-13 20:06:01 info: [0mGET /api/user/shopping-lists [36m304[0m 12.953 ms - -[0m
+2022-07-13 20:06:01 info: [0mGET /api/categories [36m304[0m 17.308 ms - -[0m
+2022-07-13 20:06:01 debug: [object Object]
+2022-07-13 20:06:01 info: [0mGET /api/shipping-methods [36m304[0m 5.056 ms - -[0m
+2022-07-13 20:06:25 info: [0mGET /api/users/types [36m304[0m 3.638 ms - -[0m
+2022-07-13 20:06:25 debug: [object Object]
+2022-07-13 20:06:25 info: [0mGET /api/auth/refresh-session [32m200[0m 6.039 ms - 552[0m
+2022-07-13 20:06:25 debug: [object Object]
+2022-07-13 20:06:25 info: [0mGET /api/tags [36m304[0m 15.053 ms - -[0m
+2022-07-13 20:06:25 debug: [object Object]
+2022-07-13 20:06:25 debug: [object Object]
+2022-07-13 20:06:25 info: [0mGET /api/products [36m304[0m 9.738 ms - -[0m
+2022-07-13 20:06:25 debug: [object Object]
+2022-07-13 20:06:25 info: [0mGET /api/categories [36m304[0m 16.232 ms - -[0m
+2022-07-13 20:06:25 info: [0mGET /api/user/shopping-lists [36m304[0m 16.905 ms - -[0m
+2022-07-13 20:06:25 debug: [object Object]
+2022-07-13 20:06:25 info: [0mGET /api/shipping-methods [36m304[0m 7.608 ms - -[0m
+2022-07-13 20:06:33 info: [0mGET /api/users/types [36m304[0m 2.564 ms - -[0m
+2022-07-13 20:06:33 debug: [object Object]
+2022-07-13 20:06:33 info: [0mGET /api/auth/refresh-session [32m200[0m 6.648 ms - 552[0m
+2022-07-13 20:06:33 debug: [object Object]
+2022-07-13 20:06:33 info: [0mGET /api/tags [36m304[0m 23.299 ms - -[0m
+2022-07-13 20:06:33 debug: [object Object]
+2022-07-13 20:06:33 debug: [object Object]
+2022-07-13 20:06:33 info: [0mGET /api/products [36m304[0m 10.381 ms - -[0m
+2022-07-13 20:06:33 info: [0mGET /api/categories [36m304[0m 13.889 ms - -[0m
+2022-07-13 20:06:33 debug: [object Object]
+2022-07-13 20:06:33 debug: [object Object]
+2022-07-13 20:06:33 info: [0mGET /api/user/shopping-lists [36m304[0m 7.595 ms - -[0m
+2022-07-13 20:06:33 info: [0mGET /api/shipping-methods [36m304[0m 7.765 ms - -[0m
+2022-07-13 20:06:38 info: [0mGET /api/users/types [36m304[0m 1.938 ms - -[0m
+2022-07-13 20:06:38 debug: [object Object]
+2022-07-13 20:06:38 info: [0mGET /api/auth/refresh-session [32m200[0m 4.085 ms - 552[0m
+2022-07-13 20:06:38 debug: [object Object]
+2022-07-13 20:06:38 info: [0mGET /api/tags [36m304[0m 12.629 ms - -[0m
+2022-07-13 20:06:38 debug: [object Object]
+2022-07-13 20:06:38 debug: [object Object]
+2022-07-13 20:06:38 info: [0mGET /api/products [36m304[0m 6.306 ms - -[0m
+2022-07-13 20:06:38 info: [0mGET /api/categories [36m304[0m 6.863 ms - -[0m
+2022-07-13 20:06:39 debug: [object Object]
+2022-07-13 20:06:39 debug: [object Object]
+2022-07-13 20:06:39 info: [0mGET /api/user/shopping-lists [36m304[0m 6.535 ms - -[0m
+2022-07-13 20:06:39 info: [0mGET /api/shipping-methods [36m304[0m 7.599 ms - -[0m
+2022-07-13 20:07:15 info: [0mGET /api/users/types [36m304[0m 4.026 ms - -[0m
+2022-07-13 20:07:15 debug: [object Object]
+2022-07-13 20:07:15 info: [0mGET /api/auth/refresh-session [32m200[0m 11.031 ms - 552[0m
+2022-07-13 20:07:15 debug: [object Object]
+2022-07-13 20:07:15 info: [0mGET /api/tags [36m304[0m 22.573 ms - -[0m
+2022-07-13 20:07:15 debug: [object Object]
+2022-07-13 20:07:15 debug: [object Object]
+2022-07-13 20:07:15 debug: [object Object]
+2022-07-13 20:07:15 info: [0mGET /api/products [36m304[0m 13.043 ms - -[0m
+2022-07-13 20:07:15 info: [0mGET /api/user/shopping-lists [36m304[0m 14.630 ms - -[0m
+2022-07-13 20:07:15 info: [0mGET /api/categories [36m304[0m 15.452 ms - -[0m
+2022-07-13 20:07:15 debug: [object Object]
+2022-07-13 20:07:15 info: [0mGET /api/shipping-methods [36m304[0m 6.302 ms - -[0m
+2022-07-13 20:07:28 info: [0mGET /api/users/types [36m304[0m 2.130 ms - -[0m
+2022-07-13 20:07:28 debug: [object Object]
+2022-07-13 20:07:28 info: [0mGET /api/auth/refresh-session [32m200[0m 9.798 ms - 552[0m
+2022-07-13 20:07:28 debug: [object Object]
+2022-07-13 20:07:28 info: [0mGET /api/tags [36m304[0m 13.208 ms - -[0m
+2022-07-13 20:07:28 debug: [object Object]
+2022-07-13 20:07:28 debug: [object Object]
+2022-07-13 20:07:28 info: [0mGET /api/products [36m304[0m 9.202 ms - -[0m
+2022-07-13 20:07:28 info: [0mGET /api/categories [36m304[0m 10.182 ms - -[0m
+2022-07-13 20:07:28 debug: [object Object]
+2022-07-13 20:07:28 debug: [object Object]
+2022-07-13 20:07:28 info: [0mGET /api/user/shopping-lists [36m304[0m 5.980 ms - -[0m
+2022-07-13 20:07:28 info: [0mGET /api/shipping-methods [36m304[0m 6.298 ms - -[0m
+2022-07-13 20:07:34 info: [0mGET /api/users/types [36m304[0m 2.764 ms - -[0m
+2022-07-13 20:07:34 debug: [object Object]
+2022-07-13 20:07:34 info: [0mGET /api/auth/refresh-session [32m200[0m 5.522 ms - 552[0m
+2022-07-13 20:07:34 debug: [object Object]
+2022-07-13 20:07:34 info: [0mGET /api/tags [36m304[0m 13.509 ms - -[0m
+2022-07-13 20:07:34 debug: [object Object]
+2022-07-13 20:07:34 debug: [object Object]
+2022-07-13 20:07:34 debug: [object Object]
+2022-07-13 20:07:34 info: [0mGET /api/products [36m304[0m 9.236 ms - -[0m
+2022-07-13 20:07:34 info: [0mGET /api/categories [36m304[0m 9.880 ms - -[0m
+2022-07-13 20:07:34 info: [0mGET /api/user/shopping-lists [36m304[0m 10.247 ms - -[0m
+2022-07-13 20:07:34 debug: [object Object]
+2022-07-13 20:07:34 info: [0mGET /api/shipping-methods [36m304[0m 2.364 ms - -[0m
+2022-07-13 20:08:44 info: [0mGET /api/users/types [36m304[0m 2.650 ms - -[0m
+2022-07-13 20:08:44 debug: [object Object]
+2022-07-13 20:08:44 info: [0mGET /api/auth/refresh-session [32m200[0m 5.921 ms - 552[0m
+2022-07-13 20:08:44 debug: [object Object]
+2022-07-13 20:08:44 debug: [object Object]
+2022-07-13 20:08:44 info: [0mGET /api/tags [36m304[0m 13.750 ms - -[0m
+2022-07-13 20:08:44 info: [0mGET /api/products [36m304[0m 14.860 ms - -[0m
+2022-07-13 20:08:44 debug: [object Object]
+2022-07-13 20:08:44 debug: [object Object]
+2022-07-13 20:08:44 debug: [object Object]
+2022-07-13 20:08:44 info: [0mGET /api/categories [36m304[0m 13.670 ms - -[0m
+2022-07-13 20:08:44 info: [0mGET /api/shipping-methods [36m304[0m 12.372 ms - -[0m
+2022-07-13 20:08:44 info: [0mGET /api/user/shopping-lists [36m304[0m 13.326 ms - -[0m
+2022-07-13 20:09:23 info: [0mGET /api/users/types [36m304[0m 3.677 ms - -[0m
+2022-07-13 20:09:23 debug: [object Object]
+2022-07-13 20:09:23 info: [0mGET /api/auth/refresh-session [32m200[0m 8.281 ms - 552[0m
+2022-07-13 20:09:23 debug: [object Object]
+2022-07-13 20:09:23 info: [0mGET /api/tags [36m304[0m 16.072 ms - -[0m
+2022-07-13 20:09:23 debug: [object Object]
+2022-07-13 20:09:23 debug: [object Object]
+2022-07-13 20:09:23 debug: [object Object]
+2022-07-13 20:09:23 info: [0mGET /api/products [36m304[0m 20.073 ms - -[0m
+2022-07-13 20:09:23 info: [0mGET /api/user/shopping-lists [36m304[0m 17.279 ms - -[0m
+2022-07-13 20:09:23 info: [0mGET /api/categories [36m304[0m 22.461 ms - -[0m
+2022-07-13 20:09:24 debug: [object Object]
+2022-07-13 20:09:24 info: [0mGET /api/shipping-methods [36m304[0m 4.844 ms - -[0m
+2022-07-13 20:10:26 info: [0mGET /api/users/types [36m304[0m 6.290 ms - -[0m
+2022-07-13 20:10:26 debug: [object Object]
+2022-07-13 20:10:26 info: [0mGET /api/auth/refresh-session [32m200[0m 8.498 ms - 552[0m
+2022-07-13 20:10:26 debug: [object Object]
+2022-07-13 20:10:27 info: [0mGET /api/tags [36m304[0m 21.220 ms - -[0m
+2022-07-13 20:10:27 debug: [object Object]
+2022-07-13 20:10:27 debug: [object Object]
+2022-07-13 20:10:27 debug: [object Object]
+2022-07-13 20:10:27 info: [0mGET /api/products [36m304[0m 13.980 ms - -[0m
+2022-07-13 20:10:27 info: [0mGET /api/categories [36m304[0m 14.754 ms - -[0m
+2022-07-13 20:10:27 info: [0mGET /api/user/shopping-lists [36m304[0m 14.448 ms - -[0m
+2022-07-13 20:10:27 debug: [object Object]
+2022-07-13 20:10:27 info: [0mGET /api/shipping-methods [36m304[0m 3.043 ms - -[0m
+2022-07-13 20:10:47 info: [0mGET /api/users/types [36m304[0m 1.968 ms - -[0m
+2022-07-13 20:10:47 debug: [object Object]
+2022-07-13 20:10:47 info: [0mGET /api/auth/refresh-session [32m200[0m 9.341 ms - 552[0m
+2022-07-13 20:10:47 debug: [object Object]
+2022-07-13 20:10:47 info: [0mGET /api/tags [36m304[0m 12.821 ms - -[0m
+2022-07-13 20:10:47 debug: [object Object]
+2022-07-13 20:10:47 debug: [object Object]
+2022-07-13 20:10:47 debug: [object Object]
+2022-07-13 20:10:47 info: [0mGET /api/products [36m304[0m 10.338 ms - -[0m
+2022-07-13 20:10:47 info: [0mGET /api/categories [36m304[0m 12.729 ms - -[0m
+2022-07-13 20:10:47 info: [0mGET /api/user/shopping-lists [36m304[0m 13.789 ms - -[0m
+2022-07-13 20:10:48 debug: [object Object]
+2022-07-13 20:10:48 info: [0mGET /api/shipping-methods [36m304[0m 3.204 ms - -[0m
+2022-07-13 20:11:15 info: [0mGET /api/users/types [36m304[0m 2.170 ms - -[0m
+2022-07-13 20:11:15 debug: [object Object]
+2022-07-13 20:11:15 info: [0mGET /api/auth/refresh-session [32m200[0m 14.956 ms - 552[0m
+2022-07-13 20:11:15 debug: [object Object]
+2022-07-13 20:11:15 info: [0mGET /api/tags [36m304[0m 15.138 ms - -[0m
+2022-07-13 20:11:15 debug: [object Object]
+2022-07-13 20:11:15 debug: [object Object]
+2022-07-13 20:11:15 debug: [object Object]
+2022-07-13 20:11:15 info: [0mGET /api/products [36m304[0m 19.075 ms - -[0m
+2022-07-13 20:11:15 info: [0mGET /api/categories [36m304[0m 20.446 ms - -[0m
+2022-07-13 20:11:15 info: [0mGET /api/user/shopping-lists [36m304[0m 20.750 ms - -[0m
+2022-07-13 20:11:15 debug: [object Object]
+2022-07-13 20:11:15 info: [0mGET /api/shipping-methods [36m304[0m 4.833 ms - -[0m
+2022-07-13 20:11:42 info: [0mGET /api/users/types [36m304[0m 4.959 ms - -[0m
+2022-07-13 20:11:42 debug: [object Object]
+2022-07-13 20:11:42 info: [0mGET /api/auth/refresh-session [32m200[0m 11.747 ms - 552[0m
+2022-07-13 20:11:42 debug: [object Object]
+2022-07-13 20:11:42 info: [0mGET /api/tags [36m304[0m 16.113 ms - -[0m
+2022-07-13 20:11:42 debug: [object Object]
+2022-07-13 20:11:42 debug: [object Object]
+2022-07-13 20:11:42 debug: [object Object]
+2022-07-13 20:11:42 info: [0mGET /api/products [36m304[0m 16.840 ms - -[0m
+2022-07-13 20:11:42 info: [0mGET /api/categories [36m304[0m 17.110 ms - -[0m
+2022-07-13 20:11:42 info: [0mGET /api/user/shopping-lists [36m304[0m 16.426 ms - -[0m
+2022-07-13 20:11:42 debug: [object Object]
+2022-07-13 20:11:42 info: [0mGET /api/shipping-methods [36m304[0m 2.311 ms - -[0m
+2022-07-13 20:12:44 info: [0mGET /api/users/types [36m304[0m 7.387 ms - -[0m
+2022-07-13 20:12:44 debug: [object Object]
+2022-07-13 20:12:44 info: [0mGET /api/auth/refresh-session [32m200[0m 10.378 ms - 552[0m
+2022-07-13 20:12:44 debug: [object Object]
+2022-07-13 20:12:44 info: [0mGET /api/tags [36m304[0m 18.807 ms - -[0m
+2022-07-13 20:12:44 debug: [object Object]
+2022-07-13 20:12:44 info: [0mGET /api/products [36m304[0m 15.401 ms - -[0m
+2022-07-13 20:12:44 debug: [object Object]
+2022-07-13 20:12:44 debug: [object Object]
+2022-07-13 20:12:44 info: [0mGET /api/user/shopping-lists [36m304[0m 10.210 ms - -[0m
+2022-07-13 20:12:44 info: [0mGET /api/categories [36m304[0m 13.113 ms - -[0m
+2022-07-13 20:12:45 debug: [object Object]
+2022-07-13 20:12:45 info: [0mGET /api/shipping-methods [36m304[0m 2.793 ms - -[0m
+2022-07-13 20:13:10 info: [0mGET /api/users/types [36m304[0m 2.231 ms - -[0m
+2022-07-13 20:13:10 debug: [object Object]
+2022-07-13 20:13:10 info: [0mGET /api/auth/refresh-session [32m200[0m 5.722 ms - 552[0m
+2022-07-13 20:13:10 debug: [object Object]
+2022-07-13 20:13:10 info: [0mGET /api/tags [36m304[0m 11.699 ms - -[0m
+2022-07-13 20:13:10 debug: [object Object]
+2022-07-13 20:13:10 debug: [object Object]
+2022-07-13 20:13:10 debug: [object Object]
+2022-07-13 20:13:10 info: [0mGET /api/products [36m304[0m 13.735 ms - -[0m
+2022-07-13 20:13:10 info: [0mGET /api/categories [36m304[0m 14.453 ms - -[0m
+2022-07-13 20:13:10 info: [0mGET /api/user/shopping-lists [36m304[0m 14.769 ms - -[0m
+2022-07-13 20:13:11 debug: [object Object]
+2022-07-13 20:13:11 info: [0mGET /api/shipping-methods [36m304[0m 3.661 ms - -[0m
+2022-07-13 20:16:04 info: =================================
+2022-07-13 20:16:04 info: ======= ENV: development =======
+2022-07-13 20:16:04 info: 🚀 App listening on the port 3000
+2022-07-13 20:16:04 info: =================================
+2022-07-13 20:16:10 info: [0mGET /api/users/types [36m304[0m 230.213 ms - -[0m
+2022-07-13 20:16:10 debug: [object Object]
+2022-07-13 20:16:10 debug: [object Object]
+2022-07-13 20:16:10 debug: [object Object]
+2022-07-13 20:16:10 debug: [object Object]
+2022-07-13 20:16:10 debug: [object Object]
+2022-07-13 20:16:10 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: ShoppingList.relationMappings.items: join: either `from` or `to` must point to the owner model table and the other one to the related table. It might be that specified table 'products' is not correct
+2022-07-13 20:16:10 info: [0mGET /api/user/shopping-lists [31m500[0m 46.189 ms - 213[0m
+2022-07-13 20:16:10 info: [0mGET /api/tags [36m304[0m 72.928 ms - -[0m
+2022-07-13 20:16:10 info: [0mGET /api/products [36m304[0m 77.614 ms - -[0m
+2022-07-13 20:16:10 info: [0mGET /api/categories [36m304[0m 82.599 ms - -[0m
+2022-07-13 20:16:10 info: [0mGET /api/auth/refresh-session [32m200[0m 107.502 ms - 552[0m
+2022-07-13 20:16:10 debug: [object Object]
+2022-07-13 20:16:10 info: [0mGET /api/shipping-methods [36m304[0m 2.894 ms - -[0m
+2022-07-13 20:18:15 info: =================================
+2022-07-13 20:18:15 info: ======= ENV: development =======
+2022-07-13 20:18:15 info: 🚀 App listening on the port 3000
+2022-07-13 20:18:15 info: =================================
+2022-07-13 20:18:56 info: [0mGET /api/users/types [36m304[0m 170.548 ms - -[0m
+2022-07-13 20:18:56 debug: [object Object]
+2022-07-13 20:18:56 debug: [object Object]
+2022-07-13 20:18:56 debug: [object Object]
+2022-07-13 20:18:56 debug: [object Object]
+2022-07-13 20:18:56 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: ShoppingList.relationMappings.items: join: either `from` or `to` must point to the owner model table and the other one to the related table. It might be that specified table 'products' is not correct
+2022-07-13 20:18:56 info: [0mGET /api/user/shopping-lists [31m500[0m 56.833 ms - 213[0m
+2022-07-13 20:18:56 debug: [object Object]
+2022-07-13 20:18:56 info: [0mGET /api/tags [36m304[0m 105.135 ms - -[0m
+2022-07-13 20:18:56 info: [0mGET /api/products [36m304[0m 109.743 ms - -[0m
+2022-07-13 20:18:56 info: [0mGET /api/categories [36m304[0m 142.401 ms - -[0m
+2022-07-13 20:18:56 info: [0mGET /api/auth/refresh-session [32m200[0m 163.479 ms - 552[0m
+2022-07-13 20:18:56 debug: [object Object]
+2022-07-13 20:18:56 info: [0mGET /api/shipping-methods [36m304[0m 3.811 ms - -[0m
+2022-07-13 20:19:46 info: =================================
+2022-07-13 20:19:46 info: ======= ENV: development =======
+2022-07-13 20:19:46 info: 🚀 App listening on the port 3000
+2022-07-13 20:19:46 info: =================================
+2022-07-13 20:19:48 info: [0mGET /api/users/types [36m304[0m 188.007 ms - -[0m
+2022-07-13 20:19:48 debug: [object Object]
+2022-07-13 20:19:48 debug: [object Object]
+2022-07-13 20:19:48 debug: [object Object]
+2022-07-13 20:19:48 debug: [object Object]
+2022-07-13 20:19:48 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: ShoppingList.relationMappings.items: join: either `from` or `to` must point to the owner model table and the other one to the related table. It might be that specified table 'products' is not correct
+2022-07-13 20:19:48 info: [0mGET /api/user/shopping-lists [31m500[0m 46.818 ms - 213[0m
+2022-07-13 20:19:48 debug: [object Object]
+2022-07-13 20:19:48 info: [0mGET /api/tags [36m304[0m 78.552 ms - -[0m
+2022-07-13 20:19:48 info: [0mGET /api/products [36m304[0m 84.825 ms - -[0m
+2022-07-13 20:19:48 info: [0mGET /api/categories [36m304[0m 106.187 ms - -[0m
+2022-07-13 20:19:48 info: [0mGET /api/auth/refresh-session [32m200[0m 121.739 ms - 552[0m
+2022-07-13 20:19:48 debug: [object Object]
+2022-07-13 20:19:48 info: [0mGET /api/shipping-methods [36m304[0m 3.064 ms - -[0m
+2022-07-13 20:20:27 info: =================================
+2022-07-13 20:20:27 info: ======= ENV: development =======
+2022-07-13 20:20:27 info: 🚀 App listening on the port 3000
+2022-07-13 20:20:27 info: =================================
+2022-07-13 20:20:32 info: [0mGET /api/users/types [36m304[0m 201.894 ms - -[0m
+2022-07-13 20:20:32 debug: [object Object]
+2022-07-13 20:20:32 debug: [object Object]
+2022-07-13 20:20:32 debug: [object Object]
+2022-07-13 20:20:32 debug: [object Object]
+2022-07-13 20:20:32 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: ShoppingList.relationMappings.items: join: either `from` or `to` must point to the owner model table and the other one to the related table. It might be that specified table 'products' is not correct
+2022-07-13 20:20:32 info: [0mGET /api/user/shopping-lists [31m500[0m 40.495 ms - 213[0m
+2022-07-13 20:20:32 debug: [object Object]
+2022-07-13 20:20:32 info: [0mGET /api/tags [36m304[0m 73.229 ms - -[0m
+2022-07-13 20:20:32 info: [0mGET /api/products [36m304[0m 95.840 ms - -[0m
+2022-07-13 20:20:32 info: [0mGET /api/categories [36m304[0m 138.083 ms - -[0m
+2022-07-13 20:20:32 info: [0mGET /api/auth/refresh-session [32m200[0m 150.473 ms - 552[0m
+2022-07-13 20:20:32 debug: [object Object]
+2022-07-13 20:20:32 info: [0mGET /api/shipping-methods [36m304[0m 3.065 ms - -[0m
+2022-07-13 20:20:45 info: =================================
+2022-07-13 20:20:45 info: ======= ENV: development =======
+2022-07-13 20:20:45 info: 🚀 App listening on the port 3000
+2022-07-13 20:20:45 info: =================================
+2022-07-13 20:20:48 info: [0mGET /api/users/types [36m304[0m 271.286 ms - -[0m
+2022-07-13 20:20:48 debug: [object Object]
+2022-07-13 20:20:48 debug: [object Object]
+2022-07-13 20:20:48 debug: [object Object]
+2022-07-13 20:20:48 debug: [object Object]
+2022-07-13 20:20:48 debug: [object Object]
+2022-07-13 20:20:49 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: ShoppingList.relationMappings.items: join: either `from` or `to` must point to the owner model table and the other one to the related table. It might be that specified table 'products' is not correct
+2022-07-13 20:20:49 info: [0mGET /api/user/shopping-lists [31m500[0m 68.930 ms - 213[0m
+2022-07-13 20:20:49 info: [0mGET /api/tags [36m304[0m 106.293 ms - -[0m
+2022-07-13 20:20:49 info: [0mGET /api/products [36m304[0m 114.981 ms - -[0m
+2022-07-13 20:20:49 info: [0mGET /api/categories [36m304[0m 153.764 ms - -[0m
+2022-07-13 20:20:49 info: [0mGET /api/auth/refresh-session [32m200[0m 189.483 ms - 552[0m
+2022-07-13 20:20:49 debug: [object Object]
+2022-07-13 20:20:49 info: [0mGET /api/shipping-methods [36m304[0m 3.172 ms - -[0m
+2022-07-13 20:22:52 info: =================================
+2022-07-13 20:22:52 info: ======= ENV: development =======
+2022-07-13 20:22:52 info: 🚀 App listening on the port 3000
+2022-07-13 20:22:52 info: =================================
+2022-07-13 20:23:08 info: =================================
+2022-07-13 20:23:08 info: ======= ENV: development =======
+2022-07-13 20:23:08 info: 🚀 App listening on the port 3000
+2022-07-13 20:23:08 info: =================================
+2022-07-13 20:23:12 info: [0mGET /api/users/types [36m304[0m 192.494 ms - -[0m
+2022-07-13 20:23:12 debug: [object Object]
+2022-07-13 20:23:12 debug: [object Object]
+2022-07-13 20:23:12 debug: [object Object]
+2022-07-13 20:23:12 debug: [object Object]
+2022-07-13 20:23:12 info: [0mGET /api/tags [36m304[0m 103.194 ms - -[0m
+2022-07-13 20:23:12 debug: [object Object]
+2022-07-13 20:23:12 info: [0mGET /api/products [36m304[0m 109.679 ms - -[0m
+2022-07-13 20:23:12 info: [0mGET /api/categories [36m304[0m 127.487 ms - -[0m
+2022-07-13 20:23:12 info: [0mGET /api/auth/refresh-session [32m200[0m 146.903 ms - 552[0m
+2022-07-13 20:23:12 info: [0mGET /api/user/shopping-lists [32m200[0m 141.347 ms - 228[0m
+2022-07-13 20:23:12 debug: [object Object]
+2022-07-13 20:23:12 info: [0mGET /api/shipping-methods [36m304[0m 3.153 ms - -[0m
+2022-07-13 20:24:23 info: =================================
+2022-07-13 20:24:23 info: ======= ENV: development =======
+2022-07-13 20:24:23 info: 🚀 App listening on the port 3000
+2022-07-13 20:24:23 info: =================================
+2022-07-13 20:24:25 info: [0mGET /api/users/types [36m304[0m 241.093 ms - -[0m
+2022-07-13 20:24:25 debug: [object Object]
+2022-07-13 20:24:25 debug: [object Object]
+2022-07-13 20:24:25 debug: [object Object]
+2022-07-13 20:24:25 debug: [object Object]
+2022-07-13 20:24:25 debug: [object Object]
+2022-07-13 20:24:25 info: [0mGET /api/tags [36m304[0m 79.862 ms - -[0m
+2022-07-13 20:24:25 info: [0mGET /api/categories [36m304[0m 80.809 ms - -[0m
+2022-07-13 20:24:25 info: [0mGET /api/products [36m304[0m 86.129 ms - -[0m
+2022-07-13 20:24:25 info: [0mGET /api/auth/refresh-session [32m200[0m 118.956 ms - 552[0m
+2022-07-13 20:24:25 info: [0mGET /api/user/shopping-lists [36m304[0m 115.436 ms - -[0m
+2022-07-13 20:24:26 debug: [object Object]
+2022-07-13 20:24:26 info: [0mGET /api/shipping-methods [36m304[0m 3.253 ms - -[0m
+2022-07-13 20:24:51 info: =================================
+2022-07-13 20:24:51 info: ======= ENV: development =======
+2022-07-13 20:24:51 info: 🚀 App listening on the port 3000
+2022-07-13 20:24:51 info: =================================
+2022-07-13 20:25:46 info: =================================
+2022-07-13 20:25:46 info: ======= ENV: development =======
+2022-07-13 20:25:46 info: 🚀 App listening on the port 3000
+2022-07-13 20:25:46 info: =================================
+2022-07-13 20:25:48 info: [0mGET /api/users/types [36m304[0m 249.845 ms - -[0m
+2022-07-13 20:25:48 debug: [object Object]
+2022-07-13 20:25:48 debug: [object Object]
+2022-07-13 20:25:48 debug: [object Object]
+2022-07-13 20:25:48 debug: [object Object]
+2022-07-13 20:25:49 info: [0mGET /api/tags [36m304[0m 88.442 ms - -[0m
+2022-07-13 20:25:49 debug: [object Object]
+2022-07-13 20:25:49 info: [0mGET /api/products [36m304[0m 96.523 ms - -[0m
+2022-07-13 20:25:49 info: [0mGET /api/categories [36m304[0m 120.554 ms - -[0m
+2022-07-13 20:25:49 info: [0mGET /api/auth/refresh-session [32m200[0m 171.146 ms - 552[0m
+2022-07-13 20:25:49 info: [0mGET /api/user/shopping-lists [32m200[0m 174.334 ms - 275[0m
+2022-07-13 20:25:49 debug: [object Object]
+2022-07-13 20:25:49 info: [0mGET /api/shipping-methods [36m304[0m 3.848 ms - -[0m
+2022-07-13 20:26:54 info: =================================
+2022-07-13 20:26:54 info: ======= ENV: development =======
+2022-07-13 20:26:54 info: 🚀 App listening on the port 3000
+2022-07-13 20:26:54 info: =================================
+2022-07-13 20:26:55 info: [0mGET /api/users/types [36m304[0m 195.436 ms - -[0m
+2022-07-13 20:26:55 debug: [object Object]
+2022-07-13 20:26:55 debug: [object Object]
+2022-07-13 20:26:55 debug: [object Object]
+2022-07-13 20:26:55 debug: [object Object]
+2022-07-13 20:26:55 debug: [object Object]
+2022-07-13 20:26:55 info: [0mGET /api/tags [36m304[0m 82.468 ms - -[0m
+2022-07-13 20:26:55 info: [0mGET /api/categories [36m304[0m 84.663 ms - -[0m
+2022-07-13 20:26:55 info: [0mGET /api/products [36m304[0m 90.902 ms - -[0m
+2022-07-13 20:26:55 info: [0mGET /api/auth/refresh-session [32m200[0m 118.720 ms - 552[0m
+2022-07-13 20:26:55 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: select `shopping_lists`.`id` as `id`, `shopping_lists`.`uuid` as `uuid`, `shopping_lists`.`name` as `name`, `shopping_lists`.`slug` as `slug`, `shopping_lists`.`user_id` as `user_id`, `shopping_lists`.`created_at` as `created_at`, `shopping_lists`.`updated_at` as `updated_at`, `owner`.`id` as `owner:id`, `owner`.`uuid` as `owner:uuid`, `owner`.`email` as `owner:email`, `owner`.`password` as `owner:password`, `owner`.`first_name` as `owner:first_name`, `owner`.`last_name` as `owner:last_name`, `owner`.`user_type_id` as `owner:user_type_id`, `owner`.`created_at` as `owner:created_at`, `owner`.`updated_at` as `owner:updated_at`, `items`.`id` as `items:id`, `items`.`uuid` as `items:uuid`, `items`.`code` as `items:code`, `items`.`slug` as `items:slug`, `items`.`name` as `items:name`, `items`.`description` as `items:description`, `items`.`price` as `items:price`, `items`.`availability` as `items:availability`, `items`.`created_at` as `items:created_at`, `items`.`updated_at` as `items:updated_at`, `items_join`.`name` as `items:name` from `shopping_lists` left join `users` as `owner` on `owner`.`id` = `shopping_lists`.`user_id` left join `shopping_list_items` as `items_join` on `items_join`.`shopping_list_id` = `shopping_lists`.`id` left join `products` as `items` on `items_join`.`product_id` = `items`.`id` where `user_id` = 23 - ER_BAD_FIELD_ERROR: Unknown column 'items_join.name' in 'field list'
+2022-07-13 20:26:55 info: [0mGET /api/user/shopping-lists [31m500[0m 127.927 ms - -[0m
+2022-07-13 20:26:56 debug: [object Object]
+2022-07-13 20:26:56 info: [0mGET /api/shipping-methods [36m304[0m 3.421 ms - -[0m
+2022-07-13 20:28:02 info: =================================
+2022-07-13 20:28:02 info: ======= ENV: development =======
+2022-07-13 20:28:02 info: 🚀 App listening on the port 3000
+2022-07-13 20:28:02 info: =================================
+2022-07-13 20:28:20 info: =================================
+2022-07-13 20:28:20 info: ======= ENV: development =======
+2022-07-13 20:28:20 info: 🚀 App listening on the port 3000
+2022-07-13 20:28:20 info: =================================
+2022-07-13 20:28:23 info: [0mGET /api/users/types [32m200[0m 193.384 ms - 735[0m
+2022-07-13 20:28:23 debug: [object Object]
+2022-07-13 20:28:23 info: [0mGET /api/auth/refresh-session [32m200[0m 62.832 ms - 552[0m
+2022-07-13 20:28:23 debug: [object Object]
+2022-07-13 20:28:23 debug: [object Object]
+2022-07-13 20:28:23 debug: [object Object]
+2022-07-13 20:28:23 debug: [object Object]
+2022-07-13 20:28:23 info: [0mGET /api/products [32m200[0m 31.909 ms - -[0m
+2022-07-13 20:28:23 info: [0mGET /api/tags [32m200[0m 29.996 ms - -[0m
+2022-07-13 20:28:23 info: [0mGET /api/categories [32m200[0m 41.778 ms - -[0m
+2022-07-13 20:28:23 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: select `shopping_lists`.`id` as `id`, `shopping_lists`.`uuid` as `uuid`, `shopping_lists`.`name` as `name`, `shopping_lists`.`slug` as `slug`, `shopping_lists`.`user_id` as `user_id`, `shopping_lists`.`created_at` as `created_at`, `shopping_lists`.`updated_at` as `updated_at`, `owner`.`id` as `owner:id`, `owner`.`uuid` as `owner:uuid`, `owner`.`email` as `owner:email`, `owner`.`password` as `owner:password`, `owner`.`first_name` as `owner:first_name`, `owner`.`last_name` as `owner:last_name`, `owner`.`user_type_id` as `owner:user_type_id`, `owner`.`created_at` as `owner:created_at`, `owner`.`updated_at` as `owner:updated_at`, `items`.`id` as `items:id`, `items`.`uuid` as `items:uuid`, `items`.`code` as `items:code`, `items`.`slug` as `items:slug`, `items`.`name` as `items:name`, `items`.`description` as `items:description`, `items`.`price` as `items:price`, `items`.`availability` as `items:availability`, `items`.`created_at` as `items:created_at`, `items`.`updated_at` as `items:updated_at`, `items_join`.`products`.`name` as `items:name` from `shopping_lists` left join `users` as `owner` on `owner`.`id` = `shopping_lists`.`user_id` left join `shopping_list_items` as `items_join` on `items_join`.`shopping_list_id` = `shopping_lists`.`id` left join `products` as `items` on `items_join`.`product_id` = `items`.`id` where `user_id` = 23 - ER_BAD_FIELD_ERROR: Unknown column 'items_join.products.name' in 'field list'
+2022-07-13 20:28:23 info: [0mGET /api/user/shopping-lists [31m500[0m 63.913 ms - -[0m
+2022-07-13 20:28:23 debug: [object Object]
+2022-07-13 20:28:23 info: [0mGET /api/shipping-methods [32m200[0m 3.406 ms - 11[0m
+2022-07-13 20:29:16 info: =================================
+2022-07-13 20:29:16 info: ======= ENV: development =======
+2022-07-13 20:29:16 info: 🚀 App listening on the port 3000
+2022-07-13 20:29:16 info: =================================
+2022-07-13 20:29:19 info: [0mGET /api/users/types [36m304[0m 208.539 ms - -[0m
+2022-07-13 20:29:19 debug: [object Object]
+2022-07-13 20:29:19 debug: [object Object]
+2022-07-13 20:29:19 debug: [object Object]
+2022-07-13 20:29:19 debug: [object Object]
+2022-07-13 20:29:19 info: [0mGET /api/tags [36m304[0m 57.308 ms - -[0m
+2022-07-13 20:29:19 info: [0mGET /api/products [36m304[0m 59.652 ms - -[0m
+2022-07-13 20:29:19 info: [0mGET /api/categories [36m304[0m 64.257 ms - -[0m
+2022-07-13 20:29:19 info: [0mGET /api/auth/refresh-session [32m200[0m 88.607 ms - 552[0m
+2022-07-13 20:29:19 debug: [object Object]
+2022-07-13 20:29:20 error: [GET] /api/user/shopping-lists >> StatusCode:: 500, Message:: select `shopping_lists`.`id` as `id`, `shopping_lists`.`uuid` as `uuid`, `shopping_lists`.`name` as `name`, `shopping_lists`.`slug` as `slug`, `shopping_lists`.`user_id` as `user_id`, `shopping_lists`.`created_at` as `created_at`, `shopping_lists`.`updated_at` as `updated_at`, `owner`.`id` as `owner:id`, `owner`.`uuid` as `owner:uuid`, `owner`.`email` as `owner:email`, `owner`.`password` as `owner:password`, `owner`.`first_name` as `owner:first_name`, `owner`.`last_name` as `owner:last_name`, `owner`.`user_type_id` as `owner:user_type_id`, `owner`.`created_at` as `owner:created_at`, `owner`.`updated_at` as `owner:updated_at`, `items`.`id` as `items:id`, `items`.`uuid` as `items:uuid`, `items`.`code` as `items:code`, `items`.`slug` as `items:slug`, `items`.`name` as `items:name`, `items`.`description` as `items:description`, `items`.`price` as `items:price`, `items`.`availability` as `items:availability`, `items`.`created_at` as `items:created_at`, `items`.`updated_at` as `items:updated_at`, `items_join`.`name` as `items:name` from `shopping_lists` left join `users` as `owner` on `owner`.`id` = `shopping_lists`.`user_id` left join `shopping_list_items` as `items_join` on `items_join`.`shopping_list_id` = `shopping_lists`.`id` left join `products` as `items` on `items_join`.`product_id` = `items`.`id` where `user_id` = 23 - ER_BAD_FIELD_ERROR: Unknown column 'items_join.name' in 'field list'
+2022-07-13 20:29:20 info: [0mGET /api/user/shopping-lists [31m500[0m 34.518 ms - -[0m
+2022-07-13 20:29:20 debug: [object Object]
+2022-07-13 20:29:20 info: [0mGET /api/shipping-methods [36m304[0m 3.211 ms - -[0m
+2022-07-13 20:29:30 info: =================================
+2022-07-13 20:29:30 info: ======= ENV: development =======
+2022-07-13 20:29:30 info: 🚀 App listening on the port 3000
+2022-07-13 20:29:30 info: =================================
+2022-07-13 20:31:55 info: [0mGET /api/users/types [36m304[0m 249.716 ms - -[0m
+2022-07-13 20:31:55 debug: [object Object]
+2022-07-13 20:31:55 debug: [object Object]
+2022-07-13 20:31:55 debug: [object Object]
+2022-07-13 20:31:55 debug: [object Object]
+2022-07-13 20:31:55 info: [0mGET /api/tags [36m304[0m 110.668 ms - -[0m
+2022-07-13 20:31:55 info: [0mGET /api/categories [36m304[0m 111.930 ms - -[0m
+2022-07-13 20:31:55 info: [0mGET /api/products [36m304[0m 120.167 ms - -[0m
+2022-07-13 20:31:55 debug: [object Object]
+2022-07-13 20:31:55 debug: [object Object]
+2022-07-13 20:31:55 info: [0mGET /api/user/shopping-lists [32m200[0m 220.519 ms - 275[0m
+2022-07-13 20:31:55 info: [0mGET /api/auth/refresh-session [32m200[0m 374.562 ms - 552[0m
+2022-07-13 20:31:55 info: [0mGET /api/shipping-methods [36m304[0m 31.671 ms - -[0m
+2022-07-13 20:33:07 info: =================================
+2022-07-13 20:33:07 info: ======= ENV: development =======
+2022-07-13 20:33:07 info: 🚀 App listening on the port 3000
+2022-07-13 20:33:07 info: =================================
+2022-07-13 20:33:31 info: =================================
+2022-07-13 20:33:31 info: ======= ENV: development =======
+2022-07-13 20:33:31 info: 🚀 App listening on the port 3000
+2022-07-13 20:33:31 info: =================================
+2022-07-13 20:33:33 info: [0mGET /api/users/types [32m200[0m 175.753 ms - 735[0m
+2022-07-13 20:33:33 debug: [object Object]
+2022-07-13 20:33:33 info: [0mGET /api/auth/refresh-session [32m200[0m 54.348 ms - 552[0m
+2022-07-13 20:33:33 debug: [object Object]
+2022-07-13 20:33:33 debug: [object Object]
+2022-07-13 20:33:33 debug: [object Object]
+2022-07-13 20:33:33 info: [0mGET /api/products [32m200[0m 35.464 ms - -[0m
+2022-07-13 20:33:33 info: [0mGET /api/categories [32m200[0m 35.780 ms - -[0m
+2022-07-13 20:33:33 info: [0mGET /api/tags [32m200[0m 32.186 ms - -[0m
+2022-07-13 20:33:33 debug: [object Object]
+2022-07-13 20:33:33 debug: [object Object]
+2022-07-13 20:33:33 info: [0mGET /api/shipping-methods [32m200[0m 7.357 ms - 11[0m
+2022-07-13 20:33:33 info: [0mGET /api/user/shopping-lists [32m200[0m 19.290 ms - 364[0m
+2022-07-13 20:33:57 info: [0mGET /api/users/types [36m304[0m 6.540 ms - -[0m
+2022-07-13 20:33:57 debug: [object Object]
+2022-07-13 20:33:57 info: [0mGET /api/auth/refresh-session [32m200[0m 10.445 ms - 552[0m
+2022-07-13 20:33:57 debug: [object Object]
+2022-07-13 20:33:57 info: [0mGET /api/tags [36m304[0m 39.672 ms - -[0m
+2022-07-13 20:33:57 debug: [object Object]
+2022-07-13 20:33:57 debug: [object Object]
+2022-07-13 20:33:57 debug: [object Object]
+2022-07-13 20:33:57 info: [0mGET /api/products [36m304[0m 43.861 ms - -[0m
+2022-07-13 20:33:57 info: [0mGET /api/user/shopping-lists [36m304[0m 42.098 ms - -[0m
+2022-07-13 20:33:57 info: [0mGET /api/categories [36m304[0m 49.950 ms - -[0m
+2022-07-13 20:33:57 debug: [object Object]
+2022-07-13 20:33:57 info: [0mGET /api/shipping-methods [36m304[0m 6.289 ms - -[0m
+2022-07-13 20:34:33 debug: [object Object]
+2022-07-13 20:34:33 info: [0mPOST /api/user/shopping-lists/c9f1173b-9b21-4235-a60a-86b45f44d153/items/add/30ec88d9-1de9-464c-9a2c-df6d67ebb19f [32m200[0m 430.156 ms - 389[0m
+2022-07-13 20:34:40 info: [0mGET /api/users/types [36m304[0m 4.163 ms - -[0m
+2022-07-13 20:34:40 debug: [object Object]
+2022-07-13 20:34:40 info: [0mGET /api/auth/refresh-session [32m200[0m 8.210 ms - 552[0m
+2022-07-13 20:34:40 debug: [object Object]
+2022-07-13 20:34:40 info: [0mGET /api/tags [36m304[0m 28.010 ms - -[0m
+2022-07-13 20:34:40 debug: [object Object]
+2022-07-13 20:34:40 debug: [object Object]
+2022-07-13 20:34:40 debug: [object Object]
+2022-07-13 20:34:40 info: [0mGET /api/categories [36m304[0m 22.212 ms - -[0m
+2022-07-13 20:34:40 info: [0mGET /api/products [36m304[0m 33.465 ms - -[0m
+2022-07-13 20:34:40 info: [0mGET /api/user/shopping-lists [32m200[0m 35.263 ms - 500[0m
+2022-07-13 20:34:40 debug: [object Object]
+2022-07-13 20:34:40 info: [0mGET /api/shipping-methods [36m304[0m 2.474 ms - -[0m
