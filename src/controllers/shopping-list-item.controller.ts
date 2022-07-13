@@ -1,4 +1,5 @@
-import { CreateShoppingListItemsDto } from '@/dtos/shopping-list-item/create-shopping-list-item.dto';
+import { CreateShoppingListItemsDto } from '@/dtos/shopping-list-item/create-shopping-list-items.dto';
+import { RemoveShoppingListItemsDto } from '@/dtos/shopping-list-item/remove-shopping-list-items.dto';
 import { ShoppingListDto } from '@/dtos/shopping-list/shopping-list.dto';
 import { HttpException } from '@/exceptions/HttpException';
 import { ApiResponse } from '@/interfaces/api.interface';
@@ -43,6 +44,58 @@ export class ShoppingListItemController {
       const body = req.body as CreateShoppingListItemsDto;
       const shoppingListId = String(req.params.shoppingListId);
       await this.shoppingListItemService.createMany(userId, shoppingListId, body);
+      const data = await this.shoppingListService.getOne(userId, shoppingListId);
+      const response: ApiResponse<ShoppingListDto> = {
+        data: ShoppingListDto.fromModel(data),
+      };
+
+      res.status(200).json(response);
+    } catch (e) {
+      if (e instanceof HttpException) {
+        const response: ApiResponse<null> = {
+          data: null,
+          message: e.message,
+        };
+
+        return res.status(e.status).json(response);
+      }
+
+      next(e);
+    }
+  };
+
+  public removeOne = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+    try {
+      const userId = Number(req.user.id);
+      const productId = String(req.params.productId);
+      const shoppingListId = String(req.params.shoppingListId);
+      await this.shoppingListItemService.removeOne(userId, shoppingListId, productId);
+      const data = await this.shoppingListService.getOne(userId, shoppingListId);
+      const response: ApiResponse<ShoppingListDto> = {
+        data: ShoppingListDto.fromModel(data),
+      };
+
+      res.status(200).json(response);
+    } catch (e) {
+      if (e instanceof HttpException) {
+        const response: ApiResponse<null> = {
+          data: null,
+          message: e.message,
+        };
+
+        return res.status(e.status).json(response);
+      }
+
+      next(e);
+    }
+  };
+
+  public removeMany = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+    try {
+      const userId = Number(req.user.id);
+      const body = req.body as RemoveShoppingListItemsDto;
+      const shoppingListId = String(req.params.shoppingListId);
+      await this.shoppingListItemService.removeMany(userId, shoppingListId, body);
       const data = await this.shoppingListService.getOne(userId, shoppingListId);
       const response: ApiResponse<ShoppingListDto> = {
         data: ShoppingListDto.fromModel(data),
