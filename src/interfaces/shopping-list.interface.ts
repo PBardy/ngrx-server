@@ -14,3 +14,8 @@ export interface IShoppingList extends IBaseShoppingList {
   tags: Array<ITag>;
   items: Array<IProduct>;
 }
+
+export interface IShoppingListTags extends IModel {
+  tagId: number;
+  shoppingListId: number;
+}

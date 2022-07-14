@@ -1,10 +1,10 @@
 import { IBaseShoppingList } from '@/interfaces/shopping-list.interface';
 import { Model, ModelObject, RelationMappings, RelationMappingsThunk } from 'objection';
-import { ShoppingListItem } from './shopping-list-item.model';
 import { User } from './user.model';
 import slugify from 'slugify';
 import { faker } from '@faker-js/faker';
 import { Product } from './product.model';
+import { Tag } from './tag.model';
 
 export class ShoppingList extends Model implements IBaseShoppingList {
   public id: number;
@@ -37,6 +37,18 @@ export class ShoppingList extends Model implements IBaseShoppingList {
           from: 'shopping_list_items.shopping_list_id',
         },
         to: 'products.id',
+      },
+    },
+    tags: {
+      modelClass: Tag,
+      relation: Model.ManyToManyRelation,
+      join: {
+        from: 'shopping_lists.id',
+        through: {
+          to: 'shopping_list_tags.tag_id',
+          from: 'shopping_list_tags.shopping_list_id',
+        },
+        to: 'tags.id',
       },
     },
   };

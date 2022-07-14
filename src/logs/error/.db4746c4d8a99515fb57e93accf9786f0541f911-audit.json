@@ -64,6 +64,11 @@
             "date": 1657735344732,
             "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-13.log",
             "hash": "efdab746d686265c5ac276c1985359d97375c3aebcc84e973177bd01d85ac122"
+        },
+        {
+            "date": 1657820143540,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-14.log",
+            "hash": "8934a1a0228da5702e7734b0b92e6aa3854504d8d1f4243aef8e22c472738b62"
         }
     ],
     "hashType": "sha256"

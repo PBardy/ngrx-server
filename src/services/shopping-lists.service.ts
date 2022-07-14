@@ -16,7 +16,14 @@ export class ShoppingListService {
   private readonly shoppingListTagService = new ShoppingListTagService();
 
   public async getOne(userId: number, uuid: string): Promise<IShoppingList> {
-    const shoppingList = await ShoppingList.query().withGraphJoined('owner').withGraphJoined('items').where('shopping_lists.uuid', uuid).first();
+    const shoppingList = await ShoppingList.query()
+      .withGraphJoined('owner')
+      .withGraphJoined('items')
+      .withGraphJoined('tags')
+      .where('shopping_lists.uuid', uuid)
+      .skipUndefined()
+      .first();
+
     if (isEmpty(shoppingList)) {
       throw new HttpException(404, 'Could not find shopping list');
     }
@@ -29,7 +36,13 @@ export class ShoppingListService {
   }
 
   public async getAll(userId: number): Promise<Array<IShoppingList>> {
-    const shoppingLists = await ShoppingList.query().withGraphJoined('owner').withGraphJoined('items').where('userId', userId);
+    const shoppingLists = await ShoppingList.query()
+      .withGraphJoined('owner')
+      .withGraphJoined('items')
+      .withGraphJoined('tags')
+      .where('userId', userId)
+      .skipUndefined();
+
     return shoppingLists as unknown as Array<IShoppingList>;
   }
 
@@ -42,6 +55,7 @@ export class ShoppingListService {
       .insertAndFetch({ userId, ...dto })
       .withGraphJoined('owner')
       .withGraphJoined('items')
+      .withGraphJoined('tags')
       .skipUndefined();
 
     return shoppingList as unknown as IShoppingList;
@@ -57,7 +71,13 @@ export class ShoppingListService {
       throw new HttpException(403, 'You do not have permission to edit this shopping list');
     }
 
-    const updated = await shoppingList.$query().withGraphJoined('owner').withGraphJoined('items').patchAndFetch(dto);
+    const updated = await shoppingList
+      .$query()
+      .withGraphJoined('owner')
+      .withGraphJoined('items')
+      .withGraphJoined('tags')
+      .patchAndFetch(dto)
+      .skipUndefined();
 
     return updated as unknown as IShoppingList;
   }
@@ -72,13 +92,26 @@ export class ShoppingListService {
       throw new HttpException(403, 'You do not have permission to edit this shopping list');
     }
 
-    const updated = await shoppingList.$query().withGraphJoined('owner').withGraphJoined('items').updateAndFetch(dto);
+    const updated = await shoppingList
+      .$query()
+      .withGraphJoined('owner')
+      .withGraphJoined('items')
+      .withGraphJoined('tags')
+      .updateAndFetch(dto)
+      .skipUndefined();
 
     return updated as unknown as IShoppingList;
   }
 
   public async deleteOne(userId: number, uuid: string): Promise<IShoppingList> {
-    const shoppingList = await ShoppingList.query().withGraphJoined('owner').withGraphJoined('items').where('shopping_lists.uuid', uuid).first();
+    const shoppingList = await ShoppingList.query()
+      .withGraphJoined('owner')
+      .withGraphJoined('items')
+      .withGraphJoined('tags')
+      .where('shopping_lists.uuid', uuid)
+      .skipUndefined()
+      .first();
+
     if (isEmpty(shoppingList)) {
       throw new HttpException(404, 'Could not find shopping list');
     }
@@ -114,6 +147,7 @@ export class ShoppingListService {
     const cloned = await ShoppingList.query()
       .withGraphJoined('owner')
       .withGraphJoined('items')
+      .withGraphJoined('tags')
       .insertAndFetch({
         uuid: clone.uuid,
         name: clone.name,
