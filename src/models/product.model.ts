@@ -1,7 +1,7 @@
 import { IProduct, ProductAvailability } from '@/interfaces/product.interface';
 import { faker } from '@faker-js/faker';
 import { Model, ModelObject, RelationMappings, RelationMappingsThunk } from 'objection';
-import { ShoppingListItem } from './shopping-list-item.model';
+import { ProductProperty } from './product-property.model';
 
 export class Product extends Model implements IProduct {
   public id: number;
@@ -10,6 +10,7 @@ export class Product extends Model implements IProduct {
   public code: string;
   public slug: string;
   public price: number;
+  public image: string;
   public description?: string;
   public availability: ProductAvailability;
   public createdAt: string;
@@ -29,6 +30,14 @@ export class Product extends Model implements IProduct {
           from: 'shopping_list_items.product_id',
         },
         to: 'shopping_lists.id',
+      },
+    },
+    properties: {
+      modelClass: ProductProperty,
+      relation: Model.HasManyRelation,
+      join: {
+        from: 'products.id',
+        to: 'product_properties.product_id',
       },
     },
   };

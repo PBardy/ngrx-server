@@ -69,6 +69,21 @@
             "date": 1657820143540,
             "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-14.log",
             "hash": "8934a1a0228da5702e7734b0b92e6aa3854504d8d1f4243aef8e22c472738b62"
+        },
+        {
+            "date": 1657915852872,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-15.log",
+            "hash": "002f36256f853ffaa49cb9e0723c1b8909e2751c571cf4b137dc2eae9a045908"
+        },
+        {
+            "date": 1657956647113,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-16.log",
+            "hash": "005e16d3ae1e019c15b4bf3ebe960c2a449444fe76d63d0b703b3a57a6bbfc11"
+        },
+        {
+            "date": 1658047084591,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-17.log",
+            "hash": "896bfd3e9ff83a8edb49e43890e924475e5204f64c510fbbedd4c691a35ce141"
         }
     ],
     "hashType": "sha256"

@@ -3,6 +3,7 @@ import AuthRoute from '@routes/auth.route';
 import IndexRoute from '@routes/index.route';
 import UsersRoute from '@routes/users.route';
 import validateEnv from '@utils/validateEnv';
+import CartRoute from './routes/cart.route';
 import CategoriesRoute from './routes/category.route';
 import ProductsRoute from './routes/product.route';
 import ShippingMethodsRoute from './routes/shipping-methods.route';
@@ -22,6 +23,7 @@ const app = new App([
   new ShoppingListsRoute(),
   new ShoppingListItemsRoute(),
   new ShippingMethodsRoute(),
+  new CartRoute(),
 ]);
 
 app.listen();

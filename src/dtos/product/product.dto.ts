@@ -14,6 +14,12 @@ export class ProductDto {
   @IsString()
   public readonly code: string;
 
+  @IsString()
+  public readonly image: string;
+
+  @IsString()
+  public readonly description: string;
+
   @IsNumber()
   public readonly price: number;
 
@@ -26,6 +32,8 @@ export class ProductDto {
     this.name = product.name;
     this.code = product.code;
     this.price = product.price;
+    this.image = product.image;
+    this.description = product.description;
     this.availability = product.availability;
   }
 
