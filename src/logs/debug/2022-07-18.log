@@ -1,0 +1,278 @@
+2022-07-18 18:51:29 info: =================================
+2022-07-18 18:51:29 info: ======= ENV: development =======
+2022-07-18 18:51:29 info: 🚀 App listening on the port 3000
+2022-07-18 18:51:29 info: =================================
+2022-07-18 18:52:12 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-18 18:52:12 info: [0mGET /api/auth/refresh-session [33m401[0m 5.374 ms - 40[0m
+2022-07-18 18:52:13 info: [0mGET /api/users/types [36m304[0m 1755.723 ms - -[0m
+2022-07-18 18:52:19 info: [0mPOST /api/auth/sign-in [32m200[0m 462.077 ms - 697[0m
+2022-07-18 18:52:19 debug: [object Object]
+2022-07-18 18:52:19 debug: [object Object]
+2022-07-18 18:52:19 debug: [object Object]
+2022-07-18 18:52:20 info: [0mGET /api/categories [36m304[0m 173.691 ms - -[0m
+2022-07-18 18:52:20 info: [0mGET /api/tags [36m304[0m 196.371 ms - -[0m
+2022-07-18 18:52:20 info: [0mGET /api/products [36m304[0m 206.408 ms - -[0m
+2022-07-18 18:52:20 debug: [object Object]
+2022-07-18 18:52:20 debug: [object Object]
+2022-07-18 18:52:20 info: [0mGET /api/shipping-methods [36m304[0m 67.514 ms - -[0m
+2022-07-18 18:52:20 info: [0mGET /api/user/shopping-lists [36m304[0m 140.446 ms - -[0m
+2022-07-18 18:54:06 info: [0mGET /api/users/types [36m304[0m 4.054 ms - -[0m
+2022-07-18 18:54:06 debug: [object Object]
+2022-07-18 18:54:06 info: [0mGET /api/auth/refresh-session [32m200[0m 7.849 ms - 705[0m
+2022-07-18 18:54:06 debug: [object Object]
+2022-07-18 18:54:06 info: [0mGET /api/tags [36m304[0m 19.666 ms - -[0m
+2022-07-18 18:54:06 debug: [object Object]
+2022-07-18 18:54:06 debug: [object Object]
+2022-07-18 18:54:06 debug: [object Object]
+2022-07-18 18:54:06 info: [0mGET /api/products [36m304[0m 14.632 ms - -[0m
+2022-07-18 18:54:06 info: [0mGET /api/categories [36m304[0m 17.259 ms - -[0m
+2022-07-18 18:54:06 info: [0mGET /api/user/shopping-lists [36m304[0m 18.120 ms - -[0m
+2022-07-18 18:54:06 debug: [object Object]
+2022-07-18 18:54:06 info: [0mGET /api/shipping-methods [36m304[0m 5.640 ms - -[0m
+2022-07-18 18:54:34 info: [0mGET /api/users/types [36m304[0m 3.160 ms - -[0m
+2022-07-18 18:54:34 debug: [object Object]
+2022-07-18 18:54:34 info: [0mGET /api/auth/refresh-session [32m200[0m 5.799 ms - 705[0m
+2022-07-18 18:54:34 debug: [object Object]
+2022-07-18 18:54:34 info: [0mGET /api/tags [36m304[0m 13.010 ms - -[0m
+2022-07-18 18:54:34 debug: [object Object]
+2022-07-18 18:54:35 debug: [object Object]
+2022-07-18 18:54:35 debug: [object Object]
+2022-07-18 18:54:35 info: [0mGET /api/products [36m304[0m 17.143 ms - -[0m
+2022-07-18 18:54:35 info: [0mGET /api/categories [36m304[0m 19.356 ms - -[0m
+2022-07-18 18:54:35 info: [0mGET /api/user/shopping-lists [36m304[0m 20.224 ms - -[0m
+2022-07-18 18:54:35 debug: [object Object]
+2022-07-18 18:54:35 info: [0mGET /api/shipping-methods [36m304[0m 2.278 ms - -[0m
+2022-07-18 18:55:00 info: [0mGET /api/users/types [36m304[0m 2.636 ms - -[0m
+2022-07-18 18:55:00 debug: [object Object]
+2022-07-18 18:55:00 info: [0mGET /api/auth/refresh-session [32m200[0m 5.793 ms - 705[0m
+2022-07-18 18:55:00 debug: [object Object]
+2022-07-18 18:55:00 info: [0mGET /api/tags [36m304[0m 13.114 ms - -[0m
+2022-07-18 18:55:00 debug: [object Object]
+2022-07-18 18:55:00 debug: [object Object]
+2022-07-18 18:55:00 debug: [object Object]
+2022-07-18 18:55:00 info: [0mGET /api/products [36m304[0m 12.519 ms - -[0m
+2022-07-18 18:55:00 info: [0mGET /api/categories [36m304[0m 14.915 ms - -[0m
+2022-07-18 18:55:00 info: [0mGET /api/user/shopping-lists [36m304[0m 15.972 ms - -[0m
+2022-07-18 18:55:00 debug: [object Object]
+2022-07-18 18:55:00 info: [0mGET /api/shipping-methods [36m304[0m 2.241 ms - -[0m
+2022-07-18 18:55:22 info: [0mGET /api/users/types [36m304[0m 2.936 ms - -[0m
+2022-07-18 18:55:22 debug: [object Object]
+2022-07-18 18:55:22 info: [0mGET /api/auth/refresh-session [32m200[0m 7.673 ms - 705[0m
+2022-07-18 18:55:22 debug: [object Object]
+2022-07-18 18:55:22 info: [0mGET /api/tags [36m304[0m 13.987 ms - -[0m
+2022-07-18 18:55:23 debug: [object Object]
+2022-07-18 18:55:23 debug: [object Object]
+2022-07-18 18:55:23 debug: [object Object]
+2022-07-18 18:55:23 info: [0mGET /api/products [36m304[0m 13.961 ms - -[0m
+2022-07-18 18:55:23 info: [0mGET /api/categories [36m304[0m 15.235 ms - -[0m
+2022-07-18 18:55:23 info: [0mGET /api/user/shopping-lists [36m304[0m 16.194 ms - -[0m
+2022-07-18 18:55:23 debug: [object Object]
+2022-07-18 18:55:23 info: [0mGET /api/shipping-methods [36m304[0m 7.377 ms - -[0m
+2022-07-18 18:55:30 info: [0mGET /api/users/types [36m304[0m 2.175 ms - -[0m
+2022-07-18 18:55:30 debug: [object Object]
+2022-07-18 18:55:30 info: [0mGET /api/auth/refresh-session [32m200[0m 6.464 ms - 705[0m
+2022-07-18 18:55:30 debug: [object Object]
+2022-07-18 18:55:30 info: [0mGET /api/tags [36m304[0m 10.081 ms - -[0m
+2022-07-18 18:55:30 debug: [object Object]
+2022-07-18 18:55:30 debug: [object Object]
+2022-07-18 18:55:30 debug: [object Object]
+2022-07-18 18:55:30 info: [0mGET /api/user/shopping-lists [36m304[0m 11.166 ms - -[0m
+2022-07-18 18:55:30 info: [0mGET /api/products [36m304[0m 13.664 ms - -[0m
+2022-07-18 18:55:30 info: [0mGET /api/categories [36m304[0m 13.387 ms - -[0m
+2022-07-18 18:55:30 debug: [object Object]
+2022-07-18 18:55:30 info: [0mGET /api/shipping-methods [36m304[0m 2.296 ms - -[0m
+2022-07-18 19:06:28 info: [0mGET /api/users/types [36m304[0m 4.049 ms - -[0m
+2022-07-18 19:06:28 debug: [object Object]
+2022-07-18 19:06:28 info: [0mGET /api/auth/refresh-session [32m200[0m 5.666 ms - 705[0m
+2022-07-18 19:06:28 debug: [object Object]
+2022-07-18 19:06:28 info: [0mGET /api/tags [36m304[0m 9.499 ms - -[0m
+2022-07-18 19:06:29 debug: [object Object]
+2022-07-18 19:06:29 debug: [object Object]
+2022-07-18 19:06:29 debug: [object Object]
+2022-07-18 19:06:29 info: [0mGET /api/user/shopping-lists [36m304[0m 8.010 ms - -[0m
+2022-07-18 19:06:29 info: [0mGET /api/products [36m304[0m 12.899 ms - -[0m
+2022-07-18 19:06:29 info: [0mGET /api/categories [36m304[0m 13.927 ms - -[0m
+2022-07-18 19:06:29 debug: [object Object]
+2022-07-18 19:06:29 info: [0mGET /api/shipping-methods [36m304[0m 2.574 ms - -[0m
+2022-07-18 19:06:31 info: [0mGET /api/users/types [36m304[0m 2.641 ms - -[0m
+2022-07-18 19:06:31 debug: [object Object]
+2022-07-18 19:06:31 info: [0mGET /api/auth/refresh-session [32m200[0m 4.530 ms - 705[0m
+2022-07-18 19:06:31 debug: [object Object]
+2022-07-18 19:06:31 info: [0mGET /api/tags [36m304[0m 9.170 ms - -[0m
+2022-07-18 19:06:31 debug: [object Object]
+2022-07-18 19:06:31 info: [0mGET /api/products [36m304[0m 7.860 ms - -[0m
+2022-07-18 19:06:31 debug: [object Object]
+2022-07-18 19:06:31 info: [0mGET /api/categories [36m304[0m 6.795 ms - -[0m
+2022-07-18 19:06:31 debug: [object Object]
+2022-07-18 19:06:31 debug: [object Object]
+2022-07-18 19:06:31 info: [0mGET /api/user/shopping-lists [36m304[0m 12.181 ms - -[0m
+2022-07-18 19:06:31 info: [0mGET /api/shipping-methods [36m304[0m 13.478 ms - -[0m
+2022-07-18 19:06:46 info: [0mGET /api/users/types [36m304[0m 2.080 ms - -[0m
+2022-07-18 19:06:46 debug: [object Object]
+2022-07-18 19:06:46 info: [0mGET /api/auth/refresh-session [32m200[0m 4.270 ms - 705[0m
+2022-07-18 19:06:46 debug: [object Object]
+2022-07-18 19:06:46 info: [0mGET /api/tags [36m304[0m 10.153 ms - -[0m
+2022-07-18 19:06:46 debug: [object Object]
+2022-07-18 19:06:46 info: [0mGET /api/products [36m304[0m 6.377 ms - -[0m
+2022-07-18 19:06:47 debug: [object Object]
+2022-07-18 19:06:47 debug: [object Object]
+2022-07-18 19:06:47 debug: [object Object]
+2022-07-18 19:06:47 info: [0mGET /api/categories [36m304[0m 22.372 ms - -[0m
+2022-07-18 19:06:47 info: [0mGET /api/user/shopping-lists [36m304[0m 21.909 ms - -[0m
+2022-07-18 19:06:47 info: [0mGET /api/shipping-methods [36m304[0m 19.857 ms - -[0m
+2022-07-18 19:06:58 info: [0mGET /api/users/types [36m304[0m 1.793 ms - -[0m
+2022-07-18 19:06:58 debug: [object Object]
+2022-07-18 19:06:58 info: [0mGET /api/auth/refresh-session [32m200[0m 6.956 ms - 705[0m
+2022-07-18 19:06:58 debug: [object Object]
+2022-07-18 19:06:58 info: [0mGET /api/tags [36m304[0m 9.487 ms - -[0m
+2022-07-18 19:06:58 debug: [object Object]
+2022-07-18 19:06:58 debug: [object Object]
+2022-07-18 19:06:58 debug: [object Object]
+2022-07-18 19:06:58 debug: [object Object]
+2022-07-18 19:06:58 info: [0mGET /api/products [36m304[0m 15.766 ms - -[0m
+2022-07-18 19:06:58 info: [0mGET /api/user/shopping-lists [36m304[0m 11.257 ms - -[0m
+2022-07-18 19:06:58 info: [0mGET /api/categories [36m304[0m 18.965 ms - -[0m
+2022-07-18 19:06:58 info: [0mGET /api/shipping-methods [36m304[0m 22.029 ms - -[0m
+2022-07-18 19:07:14 info: [0mGET /api/users/types [36m304[0m 3.319 ms - -[0m
+2022-07-18 19:07:14 debug: [object Object]
+2022-07-18 19:07:14 info: [0mGET /api/auth/refresh-session [32m200[0m 6.256 ms - 705[0m
+2022-07-18 19:07:14 debug: [object Object]
+2022-07-18 19:07:14 info: [0mGET /api/tags [36m304[0m 25.582 ms - -[0m
+2022-07-18 19:07:15 debug: [object Object]
+2022-07-18 19:07:15 debug: [object Object]
+2022-07-18 19:07:15 info: [0mGET /api/products [36m304[0m 8.104 ms - -[0m
+2022-07-18 19:07:15 info: [0mGET /api/categories [36m304[0m 10.973 ms - -[0m
+2022-07-18 19:07:15 debug: [object Object]
+2022-07-18 19:07:15 debug: [object Object]
+2022-07-18 19:07:15 info: [0mGET /api/user/shopping-lists [36m304[0m 6.883 ms - -[0m
+2022-07-18 19:07:15 info: [0mGET /api/shipping-methods [36m304[0m 7.281 ms - -[0m
+2022-07-18 19:07:32 info: [0mGET /api/users/types [36m304[0m 1.867 ms - -[0m
+2022-07-18 19:07:32 debug: [object Object]
+2022-07-18 19:07:32 info: [0mGET /api/auth/refresh-session [32m200[0m 4.275 ms - 705[0m
+2022-07-18 19:07:32 debug: [object Object]
+2022-07-18 19:07:32 info: [0mGET /api/tags [36m304[0m 10.534 ms - -[0m
+2022-07-18 19:07:32 debug: [object Object]
+2022-07-18 19:07:32 debug: [object Object]
+2022-07-18 19:07:32 info: [0mGET /api/products [36m304[0m 6.764 ms - -[0m
+2022-07-18 19:07:32 info: [0mGET /api/categories [36m304[0m 7.438 ms - -[0m
+2022-07-18 19:07:32 debug: [object Object]
+2022-07-18 19:07:32 debug: [object Object]
+2022-07-18 19:07:32 info: [0mGET /api/user/shopping-lists [36m304[0m 5.844 ms - -[0m
+2022-07-18 19:07:32 info: [0mGET /api/shipping-methods [36m304[0m 5.848 ms - -[0m
+2022-07-18 19:10:41 info: [0mGET /api/users/types [36m304[0m 3.342 ms - -[0m
+2022-07-18 19:10:41 debug: [object Object]
+2022-07-18 19:10:41 info: [0mGET /api/auth/refresh-session [32m200[0m 9.608 ms - 705[0m
+2022-07-18 19:10:41 debug: [object Object]
+2022-07-18 19:10:41 info: [0mGET /api/tags [36m304[0m 19.272 ms - -[0m
+2022-07-18 19:10:41 debug: [object Object]
+2022-07-18 19:10:41 info: [0mGET /api/products [36m304[0m 11.651 ms - -[0m
+2022-07-18 19:10:41 debug: [object Object]
+2022-07-18 19:10:41 debug: [object Object]
+2022-07-18 19:10:41 debug: [object Object]
+2022-07-18 19:10:41 info: [0mGET /api/categories [36m304[0m 7.856 ms - -[0m
+2022-07-18 19:10:41 info: [0mGET /api/shipping-methods [36m304[0m 6.534 ms - -[0m
+2022-07-18 19:10:41 info: [0mGET /api/user/shopping-lists [36m304[0m 9.520 ms - -[0m
+2022-07-18 19:10:53 info: [0mGET /api/users/types [36m304[0m 2.011 ms - -[0m
+2022-07-18 19:10:53 debug: [object Object]
+2022-07-18 19:10:53 info: [0mGET /api/auth/refresh-session [32m200[0m 10.822 ms - 705[0m
+2022-07-18 19:10:53 debug: [object Object]
+2022-07-18 19:10:53 info: [0mGET /api/tags [36m304[0m 12.298 ms - -[0m
+2022-07-18 19:10:54 debug: [object Object]
+2022-07-18 19:10:54 debug: [object Object]
+2022-07-18 19:10:54 debug: [object Object]
+2022-07-18 19:10:54 debug: [object Object]
+2022-07-18 19:10:54 info: [0mGET /api/products [36m304[0m 22.608 ms - -[0m
+2022-07-18 19:10:54 info: [0mGET /api/categories [36m304[0m 22.883 ms - -[0m
+2022-07-18 19:10:54 info: [0mGET /api/shipping-methods [36m304[0m 20.105 ms - -[0m
+2022-07-18 19:10:54 info: [0mGET /api/user/shopping-lists [36m304[0m 25.020 ms - -[0m
+2022-07-18 19:11:37 info: [0mGET /api/users/types [36m304[0m 2.454 ms - -[0m
+2022-07-18 19:11:37 debug: [object Object]
+2022-07-18 19:11:37 info: [0mGET /api/auth/refresh-session [32m200[0m 4.681 ms - 705[0m
+2022-07-18 19:11:37 debug: [object Object]
+2022-07-18 19:11:37 info: [0mGET /api/tags [36m304[0m 9.121 ms - -[0m
+2022-07-18 19:11:37 debug: [object Object]
+2022-07-18 19:11:37 debug: [object Object]
+2022-07-18 19:11:37 debug: [object Object]
+2022-07-18 19:11:37 info: [0mGET /api/products [36m304[0m 11.676 ms - -[0m
+2022-07-18 19:11:37 info: [0mGET /api/user/shopping-lists [36m304[0m 12.074 ms - -[0m
+2022-07-18 19:11:37 info: [0mGET /api/categories [36m304[0m 15.517 ms - -[0m
+2022-07-18 19:11:38 debug: [object Object]
+2022-07-18 19:11:38 info: [0mGET /api/shipping-methods [36m304[0m 2.439 ms - -[0m
+2022-07-18 19:11:42 info: [0mGET /api/users/types [36m304[0m 1.531 ms - -[0m
+2022-07-18 19:11:42 debug: [object Object]
+2022-07-18 19:11:42 info: [0mGET /api/auth/refresh-session [32m200[0m 3.724 ms - 705[0m
+2022-07-18 19:11:42 debug: [object Object]
+2022-07-18 19:11:42 debug: [object Object]
+2022-07-18 19:11:42 debug: [object Object]
+2022-07-18 19:11:42 info: [0mGET /api/tags [36m304[0m 17.577 ms - -[0m
+2022-07-18 19:11:42 debug: [object Object]
+2022-07-18 19:11:42 info: [0mGET /api/categories [36m304[0m 19.704 ms - -[0m
+2022-07-18 19:11:42 info: [0mGET /api/products [36m304[0m 28.659 ms - -[0m
+2022-07-18 19:11:42 info: [0mGET /api/user/shopping-lists [36m304[0m 27.077 ms - -[0m
+2022-07-18 19:11:42 debug: [object Object]
+2022-07-18 19:11:42 info: [0mGET /api/shipping-methods [36m304[0m 2.726 ms - -[0m
+2022-07-18 19:11:53 info: [0mGET /api/users/types [36m304[0m 2.762 ms - -[0m
+2022-07-18 19:11:53 debug: [object Object]
+2022-07-18 19:11:53 info: [0mGET /api/auth/refresh-session [32m200[0m 5.069 ms - 705[0m
+2022-07-18 19:11:53 debug: [object Object]
+2022-07-18 19:11:53 info: [0mGET /api/tags [36m304[0m 9.268 ms - -[0m
+2022-07-18 19:11:53 debug: [object Object]
+2022-07-18 19:11:53 debug: [object Object]
+2022-07-18 19:11:53 debug: [object Object]
+2022-07-18 19:11:53 info: [0mGET /api/products [36m304[0m 9.995 ms - -[0m
+2022-07-18 19:11:53 info: [0mGET /api/categories [36m304[0m 10.627 ms - -[0m
+2022-07-18 19:11:53 info: [0mGET /api/user/shopping-lists [36m304[0m 12.181 ms - -[0m
+2022-07-18 19:11:54 debug: [object Object]
+2022-07-18 19:11:54 info: [0mGET /api/shipping-methods [36m304[0m 4.346 ms - -[0m
+2022-07-18 19:12:26 info: [0mGET /api/users/types [36m304[0m 2.882 ms - -[0m
+2022-07-18 19:12:26 debug: [object Object]
+2022-07-18 19:12:26 info: [0mGET /api/auth/refresh-session [32m200[0m 8.313 ms - 705[0m
+2022-07-18 19:12:26 debug: [object Object]
+2022-07-18 19:12:26 info: [0mGET /api/tags [36m304[0m 9.456 ms - -[0m
+2022-07-18 19:12:26 debug: [object Object]
+2022-07-18 19:12:26 debug: [object Object]
+2022-07-18 19:12:26 debug: [object Object]
+2022-07-18 19:12:26 info: [0mGET /api/products [36m304[0m 9.270 ms - -[0m
+2022-07-18 19:12:26 info: [0mGET /api/categories [36m304[0m 11.425 ms - -[0m
+2022-07-18 19:12:26 info: [0mGET /api/user/shopping-lists [36m304[0m 11.609 ms - -[0m
+2022-07-18 19:12:26 debug: [object Object]
+2022-07-18 19:12:26 info: [0mGET /api/shipping-methods [36m304[0m 2.329 ms - -[0m
+2022-07-18 19:12:37 info: [0mGET /api/users/types [36m304[0m 2.217 ms - -[0m
+2022-07-18 19:12:37 debug: [object Object]
+2022-07-18 19:12:37 info: [0mGET /api/auth/refresh-session [32m200[0m 5.282 ms - 705[0m
+2022-07-18 19:12:37 debug: [object Object]
+2022-07-18 19:12:37 info: [0mGET /api/tags [36m304[0m 12.744 ms - -[0m
+2022-07-18 19:12:37 debug: [object Object]
+2022-07-18 19:12:37 info: [0mGET /api/products [36m304[0m 13.351 ms - -[0m
+2022-07-18 19:12:37 debug: [object Object]
+2022-07-18 19:12:37 info: [0mGET /api/categories [36m304[0m 13.443 ms - -[0m
+2022-07-18 19:12:38 debug: [object Object]
+2022-07-18 19:12:38 debug: [object Object]
+2022-07-18 19:12:38 info: [0mGET /api/user/shopping-lists [36m304[0m 6.963 ms - -[0m
+2022-07-18 19:12:38 info: [0mGET /api/shipping-methods [36m304[0m 6.989 ms - -[0m
+2022-07-18 19:12:55 info: [0mGET /api/users/types [36m304[0m 1.858 ms - -[0m
+2022-07-18 19:12:55 debug: [object Object]
+2022-07-18 19:12:55 info: [0mGET /api/auth/refresh-session [32m200[0m 5.517 ms - 705[0m
+2022-07-18 19:12:55 debug: [object Object]
+2022-07-18 19:12:55 info: [0mGET /api/tags [36m304[0m 12.378 ms - -[0m
+2022-07-18 19:12:55 debug: [object Object]
+2022-07-18 19:12:55 debug: [object Object]
+2022-07-18 19:12:55 debug: [object Object]
+2022-07-18 19:12:55 info: [0mGET /api/products [36m304[0m 15.295 ms - -[0m
+2022-07-18 19:12:55 info: [0mGET /api/categories [36m304[0m 16.296 ms - -[0m
+2022-07-18 19:12:55 info: [0mGET /api/user/shopping-lists [36m304[0m 16.855 ms - -[0m
+2022-07-18 19:12:55 debug: [object Object]
+2022-07-18 19:12:55 info: [0mGET /api/shipping-methods [36m304[0m 7.264 ms - -[0m
+2022-07-18 19:13:05 info: [0mGET /api/users/types [36m304[0m 2.014 ms - -[0m
+2022-07-18 19:13:05 debug: [object Object]
+2022-07-18 19:13:05 info: [0mGET /api/auth/refresh-session [32m200[0m 6.271 ms - 705[0m
+2022-07-18 19:13:05 debug: [object Object]
+2022-07-18 19:13:05 info: [0mGET /api/tags [36m304[0m 11.566 ms - -[0m
+2022-07-18 19:13:05 debug: [object Object]
+2022-07-18 19:13:05 debug: [object Object]
+2022-07-18 19:13:05 debug: [object Object]
+2022-07-18 19:13:05 info: [0mGET /api/products [36m304[0m 13.016 ms - -[0m
+2022-07-18 19:13:05 info: [0mGET /api/categories [36m304[0m 12.649 ms - -[0m
+2022-07-18 19:13:05 info: [0mGET /api/user/shopping-lists [36m304[0m 12.728 ms - -[0m
+2022-07-18 19:13:05 debug: [object Object]
+2022-07-18 19:13:05 info: [0mGET /api/shipping-methods [36m304[0m 1.946 ms - -[0m

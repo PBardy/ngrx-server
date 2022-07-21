@@ -1,0 +1,31 @@
+2022-07-20 18:34:57 info: =================================
+2022-07-20 18:34:57 info: ======= ENV: development =======
+2022-07-20 18:34:57 info: 🚀 App listening on the port 3000
+2022-07-20 18:34:57 info: =================================
+2022-07-20 19:11:48 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-20 19:11:48 info: [0mGET /api/auth/refresh-session [33m401[0m 37.792 ms - 40[0m
+2022-07-20 19:11:48 info: [0mGET /api/users/types [36m304[0m 2186.301 ms - -[0m
+2022-07-20 19:11:58 info: [0mPOST /api/auth/sign-in [32m200[0m 691.338 ms - 697[0m
+2022-07-20 19:11:58 debug: [object Object]
+2022-07-20 19:11:58 info: [0mGET /api/tags [36m304[0m 65.798 ms - -[0m
+2022-07-20 19:11:58 debug: [object Object]
+2022-07-20 19:11:58 debug: [object Object]
+2022-07-20 19:11:58 debug: [object Object]
+2022-07-20 19:11:58 debug: [object Object]
+2022-07-20 19:11:58 info: [0mGET /api/categories [36m304[0m 259.074 ms - -[0m
+2022-07-20 19:11:58 info: [0mGET /api/shipping-methods [36m304[0m 263.324 ms - -[0m
+2022-07-20 19:11:58 info: [0mGET /api/products [36m304[0m 304.425 ms - -[0m
+2022-07-20 19:11:58 info: [0mGET /api/user/shopping-lists [36m304[0m 352.495 ms - -[0m
+2022-07-20 19:19:20 info: [0mGET /api/users/types [36m304[0m 2.608 ms - -[0m
+2022-07-20 19:19:20 debug: [object Object]
+2022-07-20 19:19:20 info: [0mGET /api/auth/refresh-session [32m200[0m 6.519 ms - 705[0m
+2022-07-20 19:19:20 debug: [object Object]
+2022-07-20 19:19:20 info: [0mGET /api/tags [36m304[0m 16.544 ms - -[0m
+2022-07-20 19:19:20 debug: [object Object]
+2022-07-20 19:19:20 debug: [object Object]
+2022-07-20 19:19:20 debug: [object Object]
+2022-07-20 19:19:20 info: [0mGET /api/products [36m304[0m 15.249 ms - -[0m
+2022-07-20 19:19:20 info: [0mGET /api/categories [36m304[0m 19.873 ms - -[0m
+2022-07-20 19:19:20 info: [0mGET /api/user/shopping-lists [36m304[0m 23.099 ms - -[0m
+2022-07-20 19:19:20 debug: [object Object]
+2022-07-20 19:19:20 info: [0mGET /api/shipping-methods [36m304[0m 3.131 ms - -[0m

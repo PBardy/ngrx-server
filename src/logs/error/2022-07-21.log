@@ -1,0 +1,7 @@
+2022-07-21 19:15:55 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-21 21:53:13 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-21 21:53:13 error: [GET] /api/tags >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-21 21:53:13 error: [GET] /api/products >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-21 21:53:13 error: [GET] /api/categories >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-21 21:53:13 error: [GET] /api/user/shopping-lists >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-21 21:53:13 error: [GET] /api/shipping-methods >> StatusCode:: 401, Message:: Wrong authentication token
