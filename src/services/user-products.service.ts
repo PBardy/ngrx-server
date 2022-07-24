@@ -22,6 +22,7 @@ export class UserProductsService {
 
     const userProduct = await UserProduct.query()
       .withGraphJoined('user')
+      .withGraphJoined('user.userType')
       .withGraphJoined('product')
       .insertAndFetch({
         userId: user.id,

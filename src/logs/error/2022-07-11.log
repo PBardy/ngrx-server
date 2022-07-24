@@ -1,8 +1,0 @@
-2022-07-11 19:36:11 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
-2022-07-11 19:36:11 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
-2022-07-11 21:34:17 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
-2022-07-11 21:34:17 error: [GET] /api/tags >> StatusCode:: 401, Message:: Wrong authentication token
-2022-07-11 21:34:17 error: [GET] /api/products >> StatusCode:: 401, Message:: Wrong authentication token
-2022-07-11 21:34:17 error: [GET] /api/categories >> StatusCode:: 401, Message:: Wrong authentication token
-2022-07-11 21:34:17 error: [GET] /api/user/shopping-lists >> StatusCode:: 401, Message:: Wrong authentication token
-2022-07-11 21:48:59 error: [GET] /api/shipping-methods >> StatusCode:: 500, Message:: select `shipping_method`.* from `shipping_method` - ER_NO_SUCH_TABLE: Table 'ngrx.shipping_method' doesn't exist

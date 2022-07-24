@@ -18,16 +18,16 @@ export class UserDTO {
   @IsObject()
   public readonly userType: UserTypeDTO;
 
-  public constructor(uuid: string, firstName: string, lastName: string, email: string, userType: UserTypeDTO) {
-    this.uuid = uuid;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.email = email;
-    this.userType = userType;
+  public constructor(user: IUser) {
+    this.uuid = user.uuid;
+    this.firstName = user.firstName;
+    this.lastName = user.lastName;
+    this.email = user.email;
+    this.userType = UserTypeDTO.fromModel(user.userType);
   }
 
-  public static fromModel({ uuid, firstName, lastName, email, userType }: IUser): UserDTO {
-    return new UserDTO(uuid, firstName, lastName, email, UserTypeDTO.fromModel(userType));
+  public static fromModel(user: IUser): UserDTO {
+    return new UserDTO(user);
   }
 
   public static fromModels(models: Array<IUser>): Array<UserDTO> {

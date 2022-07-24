@@ -13,14 +13,14 @@ export class UserLocationDto {
   @ValidateNested()
   public readonly location: LocationDto;
 
-  public constructor(uuid: string, user: UserDTO, location: LocationDto) {
-    this.uuid = uuid;
-    this.user = user;
-    this.location = location;
+  public constructor(userLocation: IUserLocation) {
+    this.uuid = userLocation.uuid;
+    this.user = UserDTO.fromModel(userLocation.user);
+    this.location = LocationDto.fromModel(userLocation.location);
   }
 
-  public static fromModel({ uuid, user, location }: IUserLocation): UserLocationDto {
-    return new UserLocationDto(uuid, UserDTO.fromModel(user), LocationDto.fromModel(location));
+  public static fromModel(userLocation: IUserLocation): UserLocationDto {
+    return new UserLocationDto(userLocation);
   }
 
   public static fromModels(models: Array<IUserLocation>): Array<UserLocationDto> {
