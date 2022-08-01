@@ -7,14 +7,12 @@ export class ProductProperty extends Model implements IBaseProductProperty {
   public uuid: string;
   public tag: Uppercase<string>;
   public label: string;
-  public value: string | number | boolean;
-  public productId: number;
   public categoryId: number;
   public createdAt: string;
   public updatedAt: string;
 
   public static idColumn = 'id';
-  public static tableName = 'product_properties';
+  public static tableName = 'product_property';
 
   public async $beforeInsert() {
     this.uuid = faker.datatype.uuid();

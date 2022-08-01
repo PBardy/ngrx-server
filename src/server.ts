@@ -11,6 +11,7 @@ import ShoppingListItemsRoute from './routes/shopping-list-item.route';
 import ShoppingListsRoute from './routes/shopping-list.route';
 import TagsRoute from './routes/tag.route';
 import UserLocationRoute from './routes/user-locations.route';
+import UserProductsRoute from './routes/user-products.route';
 
 validateEnv();
 
@@ -26,6 +27,7 @@ const app = new App([
   new ShippingMethodsRoute(),
   new CartRoute(),
   new UserLocationRoute(),
+  new UserProductsRoute(),
 ]);
 
 app.listen();

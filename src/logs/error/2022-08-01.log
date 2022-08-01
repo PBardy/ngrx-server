@@ -1,0 +1,1 @@
+2022-08-01 21:00:18 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token

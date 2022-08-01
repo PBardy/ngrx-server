@@ -119,6 +119,36 @@
             "date": 1658655517875,
             "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-24.log",
             "hash": "09c2f0987abfe9b93009fc395e86dcc4e51e5491ea1d7adf3d6908deb5e7af97"
+        },
+        {
+            "date": 1658772245713,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-25.log",
+            "hash": "1510839053a5190d1367b0efa9e6a80ae6d34e668a573c62d21e9a8db4bb068f"
+        },
+        {
+            "date": 1658860346529,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-26.log",
+            "hash": "b3929893f53d7a73c0a1629e8e5d56c6a338bf4ea0e19484f254412fa6560b90"
+        },
+        {
+            "date": 1658938674656,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-27.log",
+            "hash": "2f08a8e7f690135b7a196607443e9ab10bdb6b4ede7e223cbeb9a92deaf4e890"
+        },
+        {
+            "date": 1659167450085,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-30.log",
+            "hash": "414500c279dc2a49e74e176a0acafbee73d136a8ffcc91420dfa1cd01849b9d6"
+        },
+        {
+            "date": 1659251910625,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-07-31.log",
+            "hash": "e301d37bb068dbfc8ab100688a0a0b50d030acb0150755a4ce746e802b983bff"
+        },
+        {
+            "date": 1659383268370,
+            "name": "D:\\Programming\\Angular\\ngrx\\server\\src\\logs\\error\\2022-08-01.log",
+            "hash": "e0adfd2ec0ca2cf1a6017b96a73c347aed7e53cc7d749cdae4f9f8c380251c61"
         }
     ],
     "hashType": "sha256"

@@ -25,17 +25,25 @@ export interface IProduct extends IBaseProduct {
 export interface IBaseProductProperty extends IModel {
   tag: Uppercase<string>;
   label: string;
-  value: string | number | boolean;
   categoryId: number;
-  productId: number;
 }
 
-export interface IProductProperty {
-  product: IProduct;
+export interface IProductProperty extends IBaseProductProperty {
   category: IProductPropertyCategory;
 }
 
 export interface IProductPropertyCategory extends IModel {
   tag: Uppercase<string>;
   label: string;
+}
+
+export interface IBaseProductProperties extends IModel {
+  productId: number;
+  productPropertyId: number;
+  value: string | boolean | number | null;
+}
+
+export interface IProductProperties extends IBaseProductProperties {
+  product: IProduct;
+  productProperty: IProductProperty;
 }

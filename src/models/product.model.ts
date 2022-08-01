@@ -34,10 +34,14 @@ export class Product extends Model implements IProduct {
     },
     properties: {
       modelClass: ProductProperty,
-      relation: Model.HasManyRelation,
+      relation: Model.ManyToManyRelation,
       join: {
         from: 'products.id',
-        to: 'product_properties.product_id',
+        through: {
+          to: 'product_properties.product_property_id',
+          from: 'product_properties.product_id',
+        },
+        to: 'product_property.id',
       },
     },
   };

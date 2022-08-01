@@ -1,0 +1,63 @@
+2022-07-30 08:52:20 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-30 10:58:44 error: [POST] /api/auth/sign-out >> StatusCode:: 400, Message:: each value in reason must be a valid enum value
+2022-07-30 11:00:14 error: [POST] /api/auth/sign-out >> StatusCode:: 400, Message:: each value in reason must be a valid enum value
+2022-07-30 11:00:34 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:00:43 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:01:47 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:02:21 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:02:25 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:04:59 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:05:41 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:05:48 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:05:57 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:06:04 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:06:13 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:07:07 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:07:16 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:07:24 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:07:32 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:08:13 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:08:34 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:08:49 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:30:46 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:31:00 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:31:07 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:31:36 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:32:01 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:32:13 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:32:22 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:32:33 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:32:44 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:33:14 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:33:16 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:33:27 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:33:38 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:33:53 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:34:02 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:34:50 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:34:54 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:35:03 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:35:12 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:35:26 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:35:42 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:36:07 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:36:25 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 11:40:27 error: [POST] /api/auth/sign-out >> StatusCode:: 400, Message:: each value in reason must be a valid enum value
+2022-07-30 12:58:28 error: [POST] /api/auth/sign-out >> StatusCode:: 400, Message:: each value in reason must be a valid enum value
+2022-07-30 12:58:49 error: [POST] /api/auth/sign-in >> StatusCode:: 404, Message:: Invalid credentials
+2022-07-30 12:58:56 error: [POST] /api/auth/sign-in >> StatusCode:: 404, Message:: Invalid credentials
+2022-07-30 12:59:12 error: [POST] /api/auth/sign-out >> StatusCode:: 400, Message:: each value in reason must be a valid enum value
+2022-07-30 16:50:16 error: [GET] /api/auth/refresh-session >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-30 22:59:35 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-30 22:59:35 error: [GET] /api/users/types >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-07-30 23:06:44 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-30 23:06:44 error: [GET] /api/users/types >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-07-30 23:06:52 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-30 23:06:52 error: [GET] /api/users/types >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-07-30 23:07:05 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-30 23:07:05 error: [GET] /api/users/types >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-07-30 23:07:11 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-30 23:07:11 error: [GET] /api/users/types >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-07-30 23:07:20 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
+2022-07-30 23:07:20 error: [GET] /api/users/types >> StatusCode:: 500, Message:: connect ECONNREFUSED 127.0.0.1:3306
+2022-07-30 23:07:31 error: [GET] /api/auth/refresh-session >> StatusCode:: 401, Message:: Wrong authentication token
